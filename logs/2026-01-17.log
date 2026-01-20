@@ -1,0 +1,384 @@
+Starting topic generation
+{"timestamp": "2026-01-17T01:33:28.808285", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-01-17T01:33:28.811284", "level": "INFO", "message": "Generated unique topic", "mbti": "ENFJ", "love_situation": "헤어짐 후 미련 (lingering attachment after breakup)", "tarot_card": "The Devil", "attempt": 1}
+Starting topic generation
+{"timestamp": "2026-01-17T01:34:31.945214", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-01-17T01:34:31.947225", "level": "INFO", "message": "Generated unique topic", "mbti": "INFJ", "love_situation": "결혼 고민 (marriage concerns)", "tarot_card": "The Magician", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-01-17T01:34:32.076791", "level": "INFO", "message": "Calling Claude API"}
+Claude API call successful
+{"timestamp": "2026-01-17T01:35:44.524765", "level": "INFO", "message": "Claude API call successful", "tokens": 5123}
+Validation issues
+{"timestamp": "2026-01-17T01:35:44.527051", "level": "WARNING", "message": "Validation issues", "issues": ["Forbidden words: 100%, 100%", "Missing disclaimer"]}
+Content sanitized
+{"timestamp": "2026-01-17T01:35:44.528051", "level": "INFO", "message": "Content sanitized"}
+Validation issues
+{"timestamp": "2026-01-17T01:35:44.529053", "level": "WARNING", "message": "Validation issues", "issues": ["Missing disclaimer"]}
+Post published to WordPress
+{"timestamp": "2026-01-17T01:35:46.935792", "level": "INFO", "message": "Post published to WordPress", "post_id": 6, "status": "draft"}
+Starting topic generation
+{"timestamp": "2026-01-17T01:36:47.171176", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-01-17T01:36:47.172177", "level": "INFO", "message": "Generated unique topic", "mbti": "ESTJ", "love_situation": "소통 단절 (communication breakdown)", "tarot_card": "Strength", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-01-17T01:36:47.243745", "level": "INFO", "message": "Calling Claude API"}
+Claude API call successful
+{"timestamp": "2026-01-17T01:37:57.343304", "level": "INFO", "message": "Claude API call successful", "tokens": 5115}
+Validation issues
+{"timestamp": "2026-01-17T01:37:57.344306", "level": "WARNING", "message": "Validation issues", "issues": ["Missing disclaimer"]}
+Content sanitized
+{"timestamp": "2026-01-17T01:37:57.345307", "level": "INFO", "message": "Content sanitized"}
+Validation issues
+{"timestamp": "2026-01-17T01:37:57.345307", "level": "WARNING", "message": "Validation issues", "issues": ["Missing disclaimer"]}
+Post published to WordPress
+{"timestamp": "2026-01-17T01:37:59.694821", "level": "INFO", "message": "Post published to WordPress", "post_id": 7, "status": "draft"}
+Starting topic generation
+{"timestamp": "2026-01-17T01:52:10.840597", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-01-17T01:52:10.841598", "level": "INFO", "message": "Generated unique topic", "mbti": "ISTJ", "love_situation": "감정 표현 어려움 (difficulty expressing emotions)", "tarot_card": "Death", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-01-17T01:52:10.920392", "level": "INFO", "message": "Calling Claude API"}
+Claude API call successful
+{"timestamp": "2026-01-17T01:53:25.069467", "level": "INFO", "message": "Claude API call successful", "tokens": 5132}
+Generating image with DALL-E 3
+{"timestamp": "2026-01-17T01:53:25.078467", "level": "INFO", "message": "Generating image with DALL-E 3"}
+Image generated successfully
+{"timestamp": "2026-01-17T01:53:47.772999", "level": "INFO", "message": "Image generated successfully", "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-1vZrUs4jIK4Y5FLqwF3ngkeA/user-hhijlgFTeApv9R7wNITKWtlb/img-pwBY0QEVYvhfqSdL4WfsFG8D.png?st=2026-01-16T15%3A53%3A48Z&se=2026-01-16T17%3A53%3A48Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=35890473-cca8-4a54-8305-05a39e0bc9c3&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-16T16%3A24%3A57Z&ske=2026-01-17T16%3A24%3A57Z&sks=b&skv=2024-08-04&sig=2NxvM1i4bFJKSBxWD6npNh/DjFyyYXDqH3FLbpV%2BJPo%3D"}
+Validation issues
+{"timestamp": "2026-01-17T01:53:47.775189", "level": "WARNING", "message": "Validation issues", "issues": ["Missing disclaimer"]}
+Content sanitized
+{"timestamp": "2026-01-17T01:53:47.776865", "level": "INFO", "message": "Content sanitized"}
+Validation issues
+{"timestamp": "2026-01-17T01:53:47.776865", "level": "WARNING", "message": "Validation issues", "issues": ["Missing disclaimer"]}
+Post published to WordPress
+{"timestamp": "2026-01-17T01:53:49.840722", "level": "INFO", "message": "Post published to WordPress", "post_id": 8, "status": "draft"}
+Image uploaded to WordPress
+{"timestamp": "2026-01-17T01:53:51.021925", "level": "INFO", "message": "Image uploaded to WordPress", "media_id": 9}
+Featured image set
+{"timestamp": "2026-01-17T01:53:51.353385", "level": "INFO", "message": "Featured image set", "post_id": 8, "media_id": 9}
+Starting topic generation
+{"timestamp": "2026-01-17T01:54:45.540771", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-01-17T01:54:45.543771", "level": "INFO", "message": "Generated unique topic", "mbti": "INTJ", "love_situation": "관계 패턴 반복 (repeating relationship patterns)", "tarot_card": "Death", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-01-17T01:54:45.607957", "level": "INFO", "message": "Calling Claude API"}
+Claude API call successful
+{"timestamp": "2026-01-17T01:55:56.614656", "level": "INFO", "message": "Claude API call successful", "tokens": 5135}
+Generating image with DALL-E 3
+{"timestamp": "2026-01-17T01:55:56.623230", "level": "INFO", "message": "Generating image with DALL-E 3"}
+Image generated successfully
+{"timestamp": "2026-01-17T01:56:19.809326", "level": "INFO", "message": "Image generated successfully", "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-1vZrUs4jIK4Y5FLqwF3ngkeA/user-hhijlgFTeApv9R7wNITKWtlb/img-u0aEIP3mnn56l7tzGjAsPJb0.png?st=2026-01-16T15%3A56%3A20Z&se=2026-01-16T17%3A56%3A20Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=13da7400-b3f7-4f8c-9cba-908fecbd114c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-16T16%3A56%3A20Z&ske=2026-01-17T16%3A56%3A20Z&sks=b&skv=2024-08-04&sig=CMD2k/tQRsAUXgF2nDdSbMUZf9JvJ/SLUg7lvAXQaTA%3D"}
+Validation issues
+{"timestamp": "2026-01-17T01:56:19.811260", "level": "WARNING", "message": "Validation issues", "issues": ["Missing disclaimer"]}
+Content sanitized
+{"timestamp": "2026-01-17T01:56:19.812270", "level": "INFO", "message": "Content sanitized"}
+Validation issues
+{"timestamp": "2026-01-17T01:56:19.813271", "level": "WARNING", "message": "Validation issues", "issues": ["Missing disclaimer"]}
+Post published to WordPress
+{"timestamp": "2026-01-17T01:56:21.637765", "level": "INFO", "message": "Post published to WordPress", "post_id": 11, "status": "draft"}
+Image uploaded to WordPress
+{"timestamp": "2026-01-17T01:56:22.919292", "level": "INFO", "message": "Image uploaded to WordPress", "media_id": 12}
+Featured image set
+{"timestamp": "2026-01-17T01:56:23.231307", "level": "INFO", "message": "Featured image set", "post_id": 11, "media_id": 12}
+Starting topic generation
+{"timestamp": "2026-01-17T01:58:00.133258", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-01-17T01:58:00.134257", "level": "INFO", "message": "Generated unique topic", "mbti": "ESFP", "love_situation": "거리감 (emotional distance)", "tarot_card": "Death", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-01-17T01:58:00.211385", "level": "INFO", "message": "Calling Claude API"}
+Claude API call successful
+{"timestamp": "2026-01-17T01:59:11.235545", "level": "INFO", "message": "Claude API call successful", "tokens": 5115}
+Generating image with DALL-E 3
+{"timestamp": "2026-01-17T01:59:11.245020", "level": "INFO", "message": "Generating image with DALL-E 3"}
+Image generated successfully
+{"timestamp": "2026-01-17T01:59:30.333370", "level": "INFO", "message": "Image generated successfully", "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-1vZrUs4jIK4Y5FLqwF3ngkeA/user-hhijlgFTeApv9R7wNITKWtlb/img-uECAdh7QhtOOhHKJpRf2Ds7m.png?st=2026-01-16T15%3A59%3A30Z&se=2026-01-16T17%3A59%3A30Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-16T16%3A59%3A30Z&ske=2026-01-17T16%3A59%3A30Z&sks=b&skv=2024-08-04&sig=x3oghH/iQ3EraS/75scu%2BFeesfsh4CbIQ3g%2BQtxdOeQ%3D"}
+Validation issues
+{"timestamp": "2026-01-17T01:59:30.335639", "level": "WARNING", "message": "Validation issues", "issues": ["Missing disclaimer"]}
+Content sanitized
+{"timestamp": "2026-01-17T01:59:30.338270", "level": "INFO", "message": "Content sanitized"}
+Validation issues
+{"timestamp": "2026-01-17T01:59:30.338778", "level": "WARNING", "message": "Validation issues", "issues": ["Missing disclaimer"]}
+Post published to WordPress
+{"timestamp": "2026-01-17T01:59:32.041649", "level": "INFO", "message": "Post published to WordPress", "post_id": 15, "status": "draft"}
+Image uploaded to WordPress
+{"timestamp": "2026-01-17T01:59:33.633342", "level": "INFO", "message": "Image uploaded to WordPress", "media_id": 16}
+Featured image set
+{"timestamp": "2026-01-17T01:59:33.938571", "level": "INFO", "message": "Featured image set", "post_id": 15, "media_id": 16}
+Starting topic generation
+{"timestamp": "2026-01-17T02:39:49.345283", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-01-17T02:39:49.347794", "level": "INFO", "message": "Generated unique topic", "mbti": "INFP", "love_situation": "권태기 (relationship boredom)", "tarot_card": "The Lovers", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-01-17T02:39:49.464539", "level": "INFO", "message": "Calling Claude API"}
+Claude API call successful
+{"timestamp": "2026-01-17T02:41:03.344161", "level": "INFO", "message": "Claude API call successful", "tokens": 5116}
+Generating image with DALL-E 3
+{"timestamp": "2026-01-17T02:41:03.357721", "level": "INFO", "message": "Generating image with DALL-E 3"}
+Image generated successfully
+{"timestamp": "2026-01-17T02:41:27.182605", "level": "INFO", "message": "Image generated successfully", "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-1vZrUs4jIK4Y5FLqwF3ngkeA/user-hhijlgFTeApv9R7wNITKWtlb/img-QshKBKL82IKGBk5GOQItbyCi.png?st=2026-01-16T16%3A41%3A27Z&se=2026-01-16T18%3A41%3A27Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=9346e9b9-5d29-4d37-a0a9-c6f95f09f79d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-16T17%3A41%3A27Z&ske=2026-01-17T17%3A41%3A27Z&sks=b&skv=2024-08-04&sig=xxvFBVXqc7JzfLGw/C4rIa57lvzQkcpLYNwAYG01Pgk%3D"}
+Validation issues
+{"timestamp": "2026-01-17T02:41:27.187605", "level": "WARNING", "message": "Validation issues", "issues": ["Missing disclaimer"]}
+Content sanitized
+{"timestamp": "2026-01-17T02:41:27.190125", "level": "INFO", "message": "Content sanitized"}
+Validation issues
+{"timestamp": "2026-01-17T02:41:27.191127", "level": "WARNING", "message": "Validation issues", "issues": ["Missing disclaimer"]}
+Post published to WordPress
+{"timestamp": "2026-01-17T02:41:29.248099", "level": "INFO", "message": "Post published to WordPress", "post_id": 24, "status": "publish"}
+Image uploaded to WordPress
+{"timestamp": "2026-01-17T02:41:30.416622", "level": "INFO", "message": "Image uploaded to WordPress", "media_id": 25}
+Featured image set
+{"timestamp": "2026-01-17T02:41:30.735842", "level": "INFO", "message": "Featured image set", "post_id": 24, "media_id": 25}
+Starting topic generation
+{"timestamp": "2026-01-17T02:43:05.703300", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-01-17T02:43:05.705303", "level": "INFO", "message": "Generated unique topic", "mbti": "INFP", "love_situation": "이별 후 감정 (post-breakup emotions)", "tarot_card": "The Lovers", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-01-17T02:43:05.771313", "level": "INFO", "message": "Calling Claude API"}
+Claude API call successful
+{"timestamp": "2026-01-17T02:44:19.026158", "level": "INFO", "message": "Claude API call successful", "tokens": 5131}
+Generating image with DALL-E 3
+{"timestamp": "2026-01-17T02:44:19.042476", "level": "INFO", "message": "Generating image with DALL-E 3"}
+Image generated successfully
+{"timestamp": "2026-01-17T02:44:38.294533", "level": "INFO", "message": "Image generated successfully", "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-1vZrUs4jIK4Y5FLqwF3ngkeA/user-hhijlgFTeApv9R7wNITKWtlb/img-2jkX9zm8rbAiu5pTGaqcprYm.png?st=2026-01-16T16%3A44%3A39Z&se=2026-01-16T18%3A44%3A39Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=77e5a8ec-6bd1-4477-8afc-16703a64f029&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-16T17%3A41%3A16Z&ske=2026-01-17T17%3A41%3A16Z&sks=b&skv=2024-08-04&sig=Xn496oDHO14J7PbF1CWl08C9Z/pVonuvJZBK%2BBQBiq4%3D"}
+Validation passed
+{"timestamp": "2026-01-17T02:44:38.297594", "level": "INFO", "message": "Validation passed"}
+Post published to WordPress
+{"timestamp": "2026-01-17T02:44:39.439570", "level": "INFO", "message": "Post published to WordPress", "post_id": 32, "status": "future"}
+Image uploaded to WordPress
+{"timestamp": "2026-01-17T02:44:40.806029", "level": "INFO", "message": "Image uploaded to WordPress", "media_id": 33}
+Featured image set
+{"timestamp": "2026-01-17T02:44:41.124640", "level": "INFO", "message": "Featured image set", "post_id": 32, "media_id": 33}
+Starting topic generation
+{"timestamp": "2026-01-17T03:29:12.775558", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-01-17T03:29:12.777560", "level": "INFO", "message": "Generated unique topic", "mbti": "INFP", "love_situation": "신뢰 문제 (trust issues)", "tarot_card": "The World", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-01-17T03:29:12.876530", "level": "INFO", "message": "Calling Claude API"}
+Claude API call successful
+{"timestamp": "2026-01-17T03:30:27.950719", "level": "INFO", "message": "Claude API call successful", "tokens": 5121}
+Generating image with DALL-E 3
+{"timestamp": "2026-01-17T03:30:27.965404", "level": "INFO", "message": "Generating image with DALL-E 3"}
+Image generated successfully
+{"timestamp": "2026-01-17T03:30:51.077535", "level": "INFO", "message": "Image generated successfully", "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-1vZrUs4jIK4Y5FLqwF3ngkeA/user-hhijlgFTeApv9R7wNITKWtlb/img-Ddob1OfBV5imueAqsCSdMrXH.png?st=2026-01-16T17%3A30%3A52Z&se=2026-01-16T19%3A30%3A52Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=f1dafa11-a0c2-4092-91d4-10981fbda051&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-16T18%3A30%3A52Z&ske=2026-01-17T18%3A30%3A52Z&sks=b&skv=2024-08-04&sig=p1uCfGeYBFp2t4f1JWKxI2zyzsO2ntwORDYiWsVZ8N4%3D"}
+Validation passed
+{"timestamp": "2026-01-17T03:30:51.083596", "level": "INFO", "message": "Validation passed"}
+Post published to WordPress
+{"timestamp": "2026-01-17T03:30:52.767149", "level": "INFO", "message": "Post published to WordPress", "post_id": 38, "status": "future"}
+Image uploaded to WordPress
+{"timestamp": "2026-01-17T03:30:54.108333", "level": "INFO", "message": "Image uploaded to WordPress", "media_id": 39}
+Featured image set
+{"timestamp": "2026-01-17T03:30:54.480408", "level": "INFO", "message": "Featured image set", "post_id": 38, "media_id": 39}
+Starting topic generation
+{"timestamp": "2026-01-17T03:36:23.212652", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-01-17T03:36:23.214649", "level": "INFO", "message": "Generated unique topic", "mbti": "INTJ", "love_situation": "질투와 집착 (jealousy and obsession)", "tarot_card": "The Empress", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-01-17T03:36:23.310301", "level": "INFO", "message": "Calling Claude API"}
+Claude API call successful
+{"timestamp": "2026-01-17T03:38:03.057019", "level": "INFO", "message": "Claude API call successful", "tokens": 7171}
+Generating image with DALL-E 3
+{"timestamp": "2026-01-17T03:38:03.069620", "level": "INFO", "message": "Generating image with DALL-E 3"}
+Image generated successfully
+{"timestamp": "2026-01-17T03:38:26.287513", "level": "INFO", "message": "Image generated successfully", "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-1vZrUs4jIK4Y5FLqwF3ngkeA/user-hhijlgFTeApv9R7wNITKWtlb/img-3IIjLWUW5dfLxigt7xmqCvFz.png?st=2026-01-16T17%3A38%3A27Z&se=2026-01-16T19%3A38%3A27Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-16T16%3A58%3A27Z&ske=2026-01-17T16%3A58%3A27Z&sks=b&skv=2024-08-04&sig=AVx4gti6%2BOOyFxt/HLVAdrnQ/b6Gh30Suq8t/TOIqGU%3D"}
+Validation passed
+{"timestamp": "2026-01-17T03:38:26.293889", "level": "INFO", "message": "Validation passed"}
+Post published to WordPress
+{"timestamp": "2026-01-17T03:38:27.803707", "level": "INFO", "message": "Post published to WordPress", "post_id": 42, "status": "future"}
+Image uploaded to WordPress
+{"timestamp": "2026-01-17T03:38:29.081617", "level": "INFO", "message": "Image uploaded to WordPress", "media_id": 43}
+Featured image set
+{"timestamp": "2026-01-17T03:38:29.438754", "level": "INFO", "message": "Featured image set", "post_id": 42, "media_id": 43}
+Starting topic generation
+{"timestamp": "2026-01-17T03:44:58.418065", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-01-17T03:44:58.420599", "level": "INFO", "message": "Generated unique topic", "mbti": "ENTJ", "love_situation": "관계 패턴 반복 (repeating relationship patterns)", "tarot_card": "The Chariot", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-01-17T03:44:58.511229", "level": "INFO", "message": "Calling Claude API"}
+Claude API call successful
+{"timestamp": "2026-01-17T03:46:42.363108", "level": "INFO", "message": "Claude API call successful", "tokens": 7252}
+Generating image with DALL-E 3
+{"timestamp": "2026-01-17T03:46:42.375633", "level": "INFO", "message": "Generating image with DALL-E 3"}
+Image generated successfully
+{"timestamp": "2026-01-17T03:47:05.210887", "level": "INFO", "message": "Image generated successfully", "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-1vZrUs4jIK4Y5FLqwF3ngkeA/user-hhijlgFTeApv9R7wNITKWtlb/img-MttuceYuvmfs7TNVBeSLUDt3.png?st=2026-01-16T17%3A47%3A06Z&se=2026-01-16T19%3A47%3A06Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=f1dafa11-a0c2-4092-91d4-10981fbda051&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-16T18%3A47%3A06Z&ske=2026-01-17T18%3A47%3A06Z&sks=b&skv=2024-08-04&sig=4eLUZ5BP6C6sj5i2ar/hLEuD/ydPMDWXqPBKe0vHEWU%3D"}
+Validation issues
+{"timestamp": "2026-01-17T03:47:05.216884", "level": "WARNING", "message": "Validation issues", "issues": ["Forbidden words: 무조건"]}
+Content sanitized
+{"timestamp": "2026-01-17T03:47:05.218880", "level": "INFO", "message": "Content sanitized"}
+Validation passed
+{"timestamp": "2026-01-17T03:47:05.220063", "level": "INFO", "message": "Validation passed"}
+Post published to WordPress
+{"timestamp": "2026-01-17T03:47:07.380092", "level": "INFO", "message": "Post published to WordPress", "post_id": 49, "status": "future"}
+Image uploaded to WordPress
+{"timestamp": "2026-01-17T03:47:08.656514", "level": "INFO", "message": "Image uploaded to WordPress", "media_id": 50}
+Featured image set
+{"timestamp": "2026-01-17T03:47:08.980312", "level": "INFO", "message": "Featured image set", "post_id": 49, "media_id": 50}
+Starting topic generation
+{"timestamp": "2026-01-17T04:11:09.965427", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-01-17T04:11:09.969465", "level": "INFO", "message": "Generated unique topic", "mbti": "INTP", "love_situation": "결혼 고민 (marriage concerns)", "tarot_card": "Justice", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-01-17T04:11:10.177513", "level": "INFO", "message": "Calling Claude API"}
+Claude API call successful
+{"timestamp": "2026-01-17T04:12:51.471298", "level": "INFO", "message": "Claude API call successful", "tokens": 8426}
+Generating image with DALL-E 3
+{"timestamp": "2026-01-17T04:12:51.482728", "level": "INFO", "message": "Generating image with DALL-E 3"}
+Image generated successfully
+{"timestamp": "2026-01-17T04:13:14.763819", "level": "INFO", "message": "Image generated successfully", "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-1vZrUs4jIK4Y5FLqwF3ngkeA/user-hhijlgFTeApv9R7wNITKWtlb/img-9moCN0qsqpWRlna9HekcQprx.png?st=2026-01-16T18%3A13%3A15Z&se=2026-01-16T20%3A13%3A15Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-16T19%3A13%3A15Z&ske=2026-01-17T19%3A13%3A15Z&sks=b&skv=2024-08-04&sig=9vBgoGLrqA6wcZ/RRgPx9rZzwA03WbQ6GDe8sMjjesk%3D"}
+Validation issues
+{"timestamp": "2026-01-17T04:13:14.770323", "level": "WARNING", "message": "Validation issues", "issues": ["Forbidden words: 보장", "Missing disclaimer"]}
+Content sanitized
+{"timestamp": "2026-01-17T04:13:14.771330", "level": "INFO", "message": "Content sanitized"}
+Validation issues
+{"timestamp": "2026-01-17T04:13:14.772328", "level": "WARNING", "message": "Validation issues", "issues": ["Missing disclaimer"]}
+Post published to WordPress
+{"timestamp": "2026-01-17T04:13:16.911046", "level": "INFO", "message": "Post published to WordPress", "post_id": 52, "status": "future"}
+Image uploaded to WordPress
+{"timestamp": "2026-01-17T04:13:18.171186", "level": "INFO", "message": "Image uploaded to WordPress", "media_id": 53}
+Featured image set
+{"timestamp": "2026-01-17T04:13:18.514474", "level": "INFO", "message": "Featured image set", "post_id": 52, "media_id": 53}
+Starting topic generation
+{"timestamp": "2026-01-17T04:26:02.292246", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-01-17T04:26:02.295766", "level": "INFO", "message": "Generated unique topic", "mbti": "ENTJ", "love_situation": "사랑과 자존감 (love and self-esteem)", "tarot_card": "The Chariot", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-01-17T04:26:02.406190", "level": "INFO", "message": "Calling Claude API"}
+Claude API call successful
+{"timestamp": "2026-01-17T04:27:38.575187", "level": "INFO", "message": "Claude API call successful", "tokens": 8697}
+Generating image with DALL-E 3
+{"timestamp": "2026-01-17T04:27:38.591131", "level": "INFO", "message": "Generating image with DALL-E 3"}
+Image generated successfully
+{"timestamp": "2026-01-17T04:27:58.923720", "level": "INFO", "message": "Image generated successfully", "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-1vZrUs4jIK4Y5FLqwF3ngkeA/user-hhijlgFTeApv9R7wNITKWtlb/img-8fXrNdPHB49Qsx6qRtR22V0l.png?st=2026-01-16T18%3A28%3A00Z&se=2026-01-16T20%3A28%3A00Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=ed3ea2f9-5e38-44be-9a1b-7c1e65e4d54f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-16T15%3A19%3A30Z&ske=2026-01-17T15%3A19%3A30Z&sks=b&skv=2024-08-04&sig=%2B%2BwZW35hfWjZSh8kbpeBi7liVcsl%2BO/zUCJQK5WOL00%3D"}
+Validation issues
+{"timestamp": "2026-01-17T04:27:58.930735", "level": "WARNING", "message": "Validation issues", "issues": ["Missing disclaimer"]}
+Content sanitized
+{"timestamp": "2026-01-17T04:27:58.932735", "level": "INFO", "message": "Content sanitized"}
+Validation issues
+{"timestamp": "2026-01-17T04:27:58.934242", "level": "WARNING", "message": "Validation issues", "issues": ["Missing disclaimer"]}
+WordPress publish failed: 403 Client Error: Forbidden for url: http://fortunass.mycafe24.com/wp-json/wp/v2/posts
+{"timestamp": "2026-01-17T04:28:00.013764", "level": "ERROR", "message": "WordPress publish failed: 403 Client Error: Forbidden for url: http://fortunass.mycafe24.com/wp-json/wp/v2/posts"}
+Retrying as draft
+{"timestamp": "2026-01-17T04:28:00.014820", "level": "INFO", "message": "Retrying as draft"}
+WordPress publish failed: 403 Client Error: Forbidden for url: http://fortunass.mycafe24.com/wp-json/wp/v2/posts
+{"timestamp": "2026-01-17T04:28:02.445556", "level": "ERROR", "message": "WordPress publish failed: 403 Client Error: Forbidden for url: http://fortunass.mycafe24.com/wp-json/wp/v2/posts"}
+Retrying as draft
+{"timestamp": "2026-01-17T04:28:02.447043", "level": "INFO", "message": "Retrying as draft"}
+WordPress publish failed: 403 Client Error: Forbidden for url: http://fortunass.mycafe24.com/wp-json/wp/v2/posts
+{"timestamp": "2026-01-17T04:28:04.879561", "level": "ERROR", "message": "WordPress publish failed: 403 Client Error: Forbidden for url: http://fortunass.mycafe24.com/wp-json/wp/v2/posts"}
+Retrying as draft
+{"timestamp": "2026-01-17T04:28:04.880628", "level": "INFO", "message": "Retrying as draft"}
+Pipeline failed: RetryError[<Future at 0x1e13e071de0 state=finished raised HTTPError>]
+{"timestamp": "2026-01-17T04:28:05.097462", "level": "ERROR", "message": "Pipeline failed: RetryError[<Future at 0x1e13e071de0 state=finished raised HTTPError>]"}
+Starting topic generation
+{"timestamp": "2026-01-17T04:29:08.432550", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-01-17T04:29:08.436244", "level": "INFO", "message": "Generated unique topic", "mbti": "ISTJ", "love_situation": "감정 표현 어려움 (difficulty expressing emotions)", "tarot_card": "The Tower", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-01-17T04:29:08.578712", "level": "INFO", "message": "Calling Claude API"}
+Claude API call successful
+{"timestamp": "2026-01-17T04:30:44.041172", "level": "INFO", "message": "Claude API call successful", "tokens": 8368}
+Generating image with DALL-E 3
+{"timestamp": "2026-01-17T04:30:44.057207", "level": "INFO", "message": "Generating image with DALL-E 3"}
+Image generated successfully
+{"timestamp": "2026-01-17T04:31:04.750304", "level": "INFO", "message": "Image generated successfully", "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-1vZrUs4jIK4Y5FLqwF3ngkeA/user-hhijlgFTeApv9R7wNITKWtlb/img-7PGES18UOBglZoXQnJBRUBJB.png?st=2026-01-16T18%3A31%3A06Z&se=2026-01-16T20%3A31%3A06Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=7daae675-7b42-4e2e-ab4c-8d8419a28d99&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-16T19%3A15%3A29Z&ske=2026-01-17T19%3A15%3A29Z&sks=b&skv=2024-08-04&sig=5NAL2D1xYSXEJ7ppMxxwMr6D2Cm2inZrwByAZomwrVc%3D"}
+Validation issues
+{"timestamp": "2026-01-17T04:31:04.755230", "level": "WARNING", "message": "Validation issues", "issues": ["Forbidden words: 100%, 보장, 100%"]}
+Content sanitized
+{"timestamp": "2026-01-17T04:31:04.758227", "level": "INFO", "message": "Content sanitized"}
+Validation passed
+{"timestamp": "2026-01-17T04:31:04.760230", "level": "INFO", "message": "Validation passed"}
+WordPress publish failed: 403 Client Error: Forbidden for url: http://fortunass.mycafe24.com/wp-json/wp/v2/posts
+{"timestamp": "2026-01-17T04:31:06.139865", "level": "ERROR", "message": "WordPress publish failed: 403 Client Error: Forbidden for url: http://fortunass.mycafe24.com/wp-json/wp/v2/posts"}
+Retrying as draft
+{"timestamp": "2026-01-17T04:31:06.141862", "level": "INFO", "message": "Retrying as draft"}
+WordPress publish failed: 403 Client Error: Forbidden for url: http://fortunass.mycafe24.com/wp-json/wp/v2/posts
+{"timestamp": "2026-01-17T04:31:08.565432", "level": "ERROR", "message": "WordPress publish failed: 403 Client Error: Forbidden for url: http://fortunass.mycafe24.com/wp-json/wp/v2/posts"}
+Retrying as draft
+{"timestamp": "2026-01-17T04:31:08.566423", "level": "INFO", "message": "Retrying as draft"}
+WordPress publish failed: 403 Client Error: Forbidden for url: http://fortunass.mycafe24.com/wp-json/wp/v2/posts
+{"timestamp": "2026-01-17T04:31:11.027479", "level": "ERROR", "message": "WordPress publish failed: 403 Client Error: Forbidden for url: http://fortunass.mycafe24.com/wp-json/wp/v2/posts"}
+Retrying as draft
+{"timestamp": "2026-01-17T04:31:11.028482", "level": "INFO", "message": "Retrying as draft"}
+Pipeline failed: RetryError[<Future at 0x1c7d29b5de0 state=finished raised HTTPError>]
+{"timestamp": "2026-01-17T04:31:11.246006", "level": "ERROR", "message": "Pipeline failed: RetryError[<Future at 0x1c7d29b5de0 state=finished raised HTTPError>]"}
+Starting topic generation
+{"timestamp": "2026-01-17T04:31:46.480933", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-01-17T04:31:46.483793", "level": "INFO", "message": "Generated unique topic", "mbti": "INTP", "love_situation": "재회 고민 (reconciliation concerns)", "tarot_card": "The Lovers", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-01-17T04:31:46.598955", "level": "INFO", "message": "Calling Claude API"}
+Claude API call successful
+{"timestamp": "2026-01-17T04:33:24.871879", "level": "INFO", "message": "Claude API call successful", "tokens": 8358}
+Generating image with DALL-E 3
+{"timestamp": "2026-01-17T04:33:24.889390", "level": "INFO", "message": "Generating image with DALL-E 3"}
+Image generated successfully
+{"timestamp": "2026-01-17T04:33:44.848290", "level": "INFO", "message": "Image generated successfully", "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-1vZrUs4jIK4Y5FLqwF3ngkeA/user-hhijlgFTeApv9R7wNITKWtlb/img-KNvo6mF1l1bg6k28kdcLxcOv.png?st=2026-01-16T18%3A33%3A46Z&se=2026-01-16T20%3A33%3A46Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=35890473-cca8-4a54-8305-05a39e0bc9c3&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-16T19%3A23%3A06Z&ske=2026-01-17T19%3A23%3A06Z&sks=b&skv=2024-08-04&sig=AurMdcmDs5uVa9q1DXEBYaEwwoD76n6nVfiUT7W0mgo%3D"}
+Validation passed
+{"timestamp": "2026-01-17T04:33:44.851921", "level": "INFO", "message": "Validation passed"}
+Post published to WordPress
+{"timestamp": "2026-01-17T04:33:46.097606", "level": "INFO", "message": "Post published to WordPress", "post_id": 55, "status": "future"}
+Excerpt updated
+{"timestamp": "2026-01-17T04:33:46.434304", "level": "INFO", "message": "Excerpt updated", "post_id": 55}
+SEO meta fields updated
+{"timestamp": "2026-01-17T04:33:46.793059", "level": "INFO", "message": "SEO meta fields updated", "post_id": 55}
+Image uploaded to WordPress
+{"timestamp": "2026-01-17T04:33:48.277686", "level": "INFO", "message": "Image uploaded to WordPress", "media_id": 57}
+Featured image set
+{"timestamp": "2026-01-17T04:33:48.614824", "level": "INFO", "message": "Featured image set", "post_id": 55, "media_id": 57}
+Starting topic generation
+{"timestamp": "2026-01-17T04:49:01.197380", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-01-17T04:49:01.200484", "level": "INFO", "message": "Generated unique topic", "mbti": "ENFP", "love_situation": "소통 단절 (communication breakdown)", "tarot_card": "Death", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-01-17T04:49:01.344750", "level": "INFO", "message": "Calling Claude API"}
+Claude API call successful
+{"timestamp": "2026-01-17T04:50:43.545926", "level": "INFO", "message": "Claude API call successful", "tokens": 8632}
+Generating image with DALL-E 3
+{"timestamp": "2026-01-17T04:50:43.569215", "level": "INFO", "message": "Generating image with DALL-E 3"}
+Image generated successfully
+{"timestamp": "2026-01-17T04:51:04.725308", "level": "INFO", "message": "Image generated successfully", "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-1vZrUs4jIK4Y5FLqwF3ngkeA/user-hhijlgFTeApv9R7wNITKWtlb/img-IYgFOxd4liiS0uiW2B0hPEyl.png?st=2026-01-16T18%3A51%3A06Z&se=2026-01-16T20%3A51%3A06Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=f1dafa11-a0c2-4092-91d4-10981fbda051&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-16T19%3A38%3A19Z&ske=2026-01-17T19%3A38%3A19Z&sks=b&skv=2024-08-04&sig=y3dwnrHHopyNRoYmaps40jjDWiupxBsZ4L5ciZNTvik%3D"}
+Validation issues
+{"timestamp": "2026-01-17T04:51:04.730337", "level": "WARNING", "message": "Validation issues", "issues": ["Missing disclaimer"]}
+Content sanitized
+{"timestamp": "2026-01-17T04:51:04.733948", "level": "INFO", "message": "Content sanitized"}
+Validation issues
+{"timestamp": "2026-01-17T04:51:04.735960", "level": "WARNING", "message": "Validation issues", "issues": ["Missing disclaimer"]}
+Post published to WordPress
+{"timestamp": "2026-01-17T04:51:06.541379", "level": "INFO", "message": "Post published to WordPress", "post_id": 58, "status": "future"}
+Excerpt updated
+{"timestamp": "2026-01-17T04:51:06.873685", "level": "INFO", "message": "Excerpt updated", "post_id": 58}
+SEO meta fields updated
+{"timestamp": "2026-01-17T04:51:07.225440", "level": "INFO", "message": "SEO meta fields updated", "post_id": 58}
+Image uploaded to WordPress
+{"timestamp": "2026-01-17T04:51:08.471435", "level": "INFO", "message": "Image uploaded to WordPress", "media_id": 60}
+Featured image set
+{"timestamp": "2026-01-17T04:51:08.814041", "level": "INFO", "message": "Featured image set", "post_id": 58, "media_id": 60}
+Starting topic generation
+{"timestamp": "2026-01-17T05:19:28.112194", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-01-17T05:19:28.116778", "level": "INFO", "message": "Generated unique topic", "mbti": "ESFP", "love_situation": "상대방 마음 읽기 (reading partner's mind)", "card_type": "oracle", "card_name": "Surrender", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-01-17T05:19:28.305674", "level": "INFO", "message": "Calling Claude API"}
+Claude API call successful
+{"timestamp": "2026-01-17T05:21:09.955451", "level": "INFO", "message": "Claude API call successful", "tokens": 8736}
+Generating image with DALL-E 3
+{"timestamp": "2026-01-17T05:21:09.973744", "level": "INFO", "message": "Generating image with DALL-E 3"}
+Image generated successfully
+{"timestamp": "2026-01-17T05:21:28.842039", "level": "INFO", "message": "Image generated successfully", "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-1vZrUs4jIK4Y5FLqwF3ngkeA/user-hhijlgFTeApv9R7wNITKWtlb/img-MgziyqLT4s6HXQezTofNA9cD.png?st=2026-01-16T19%3A21%3A30Z&se=2026-01-16T21%3A21%3A30Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=9346e9b9-5d29-4d37-a0a9-c6f95f09f79d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-16T20%3A21%3A30Z&ske=2026-01-17T20%3A21%3A30Z&sks=b&skv=2024-08-04&sig=GUkQlWDW1PvE42gpHkXEsmpW5jEu47yhptSQU0Oz9fk%3D"}
+Validation issues
+{"timestamp": "2026-01-17T05:21:28.847327", "level": "WARNING", "message": "Validation issues", "issues": ["Missing disclaimer"]}
+Content sanitized
+{"timestamp": "2026-01-17T05:21:28.850107", "level": "INFO", "message": "Content sanitized"}
+Validation issues
+{"timestamp": "2026-01-17T05:21:28.851654", "level": "WARNING", "message": "Validation issues", "issues": ["Missing disclaimer"]}
+Post published to WordPress
+{"timestamp": "2026-01-17T05:21:30.348758", "level": "INFO", "message": "Post published to WordPress", "post_id": 61, "status": "future"}
+Excerpt updated
+{"timestamp": "2026-01-17T05:21:30.682345", "level": "INFO", "message": "Excerpt updated", "post_id": 61}
+SEO meta fields updated
+{"timestamp": "2026-01-17T05:21:31.001067", "level": "INFO", "message": "SEO meta fields updated", "post_id": 61}
+Image uploaded to WordPress
+{"timestamp": "2026-01-17T05:21:33.054828", "level": "INFO", "message": "Image uploaded to WordPress", "media_id": 63}
+Featured image set
+{"timestamp": "2026-01-17T05:21:33.392351", "level": "INFO", "message": "Featured image set", "post_id": 61, "media_id": 63}

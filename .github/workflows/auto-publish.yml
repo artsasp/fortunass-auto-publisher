@@ -1,0 +1,88 @@
+name: Auto Publish Content
+
+on:
+  schedule:
+    # Run twice daily: 9 AM KST (00:00 UTC) and 9 PM KST (12:00 UTC)
+    - cron: '0 0 * * *'   # 9 AM KST
+    - cron: '0 12 * * *'  # 9 PM KST
+
+  # Manual trigger
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Restore database from cache
+        uses: actions/cache@v4
+        with:
+          path: data/published_topics.db
+          key: published-topics-db-${{ github.run_number }}
+          restore-keys: |
+            published-topics-db-
+
+      - name: Run content publishing
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          WORDPRESS_URL: ${{ secrets.WORDPRESS_URL }}
+          WORDPRESS_USERNAME: ${{ secrets.WORDPRESS_USERNAME }}
+          WORDPRESS_APP_PASSWORD: ${{ secrets.WORDPRESS_APP_PASSWORD }}
+          WORDPRESS_STATUS: publish
+        run: |
+          python main.py
+
+      - name: Run weekly fortune publishing (Mondays only)
+        if: github.event.schedule == '0 0 * * *'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          WORDPRESS_URL: ${{ secrets.WORDPRESS_URL }}
+          WORDPRESS_USERNAME: ${{ secrets.WORDPRESS_USERNAME }}
+          WORDPRESS_APP_PASSWORD: ${{ secrets.WORDPRESS_APP_PASSWORD }}
+          WORDPRESS_STATUS: publish
+        run: |
+          if [ "$(date +%u)" -eq 1 ]; then
+            echo "Today is Monday - running weekly fortune publishing"
+            python weekly_main.py
+          else
+            echo "Today is not Monday - skipping weekly fortune"
+          fi
+
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: publishing-logs-${{ github.run_number }}
+          path: logs/
+          retention-days: 30
+
+      - name: Commit database changes
+        if: always()
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
+          git add data/published_topics.db || true
+          git add logs/*.log || true
+
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto-publish: Content published on $(date +'%Y-%m-%d %H:%M:%S UTC')"
+            git push
+          else
+            echo "No changes to commit"
+          fi

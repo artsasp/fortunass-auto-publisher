@@ -1,0 +1,16 @@
+# Core dependencies
+anthropic>=0.40.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# OpenAI for image generation
+openai>=1.0.0
+
+# Utilities
+pyyaml>=6.0.1
+
+# Retry logic
+tenacity>=8.2.3
+
+# Database
+# SQLite is built-in to Python

@@ -1,0 +1,365 @@
+/* ============================================
+   Fortune Tarot - Healing & Mindful Theme
+   ============================================ */
+
+/* 1. 글 잘림 문제 완전 해결 */
+.single-post .entry-content,
+.single-post .content,
+.single-post article,
+.single-post .post-content,
+.post-content,
+.entry-content {
+    max-height: none !important;
+    overflow: visible !important;
+    height: auto !important;
+}
+
+.single-post p,
+.single-post div,
+.entry-content p,
+.entry-content div {
+    -webkit-line-clamp: unset !important;
+    line-clamp: unset !important;
+    display: block !important;
+    max-height: none !important;
+}
+
+.single-post .more-link,
+.read-more {
+    display: none !important;
+}
+
+/* 2. 전체 배경 - 부드러운 힐링 그라데이션 */
+body {
+    background: linear-gradient(135deg, #fdfbfb 0%, #f7f3ff 50%, #fff5f8 100%);
+    background-attachment: fixed;
+    font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+    color: #4a4a4a;
+    line-height: 1.8;
+}
+
+/* 3. 메인 컨테이너 - 여유로운 여백 */
+#main-content,
+#content,
+.site-content,
+.main-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(200, 180, 220, 0.15);
+}
+
+/* 4. 헤더 - 차분한 라벤더 톤 */
+#masthead,
+.site-header,
+header {
+    background: linear-gradient(135deg, #e8dff5 0%, #fce4ec 100%);
+    padding: 30px 20px;
+    border-bottom: 2px solid rgba(200, 180, 220, 0.2);
+    box-shadow: 0 5px 20px rgba(200, 180, 220, 0.1);
+}
+
+.site-title,
+.site-title a {
+    color: #7b68a6 !important;
+    font-size: 2em;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(123, 104, 166, 0.1);
+    letter-spacing: 2px;
+}
+
+.site-description {
+    color: #9b8bb8;
+    font-size: 1em;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+/* 5. 게시글 타이틀 - 부드러운 강조 */
+.entry-title,
+.post-title,
+h1.entry-title {
+    color: #7b68a6 !important;
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #e8dff5;
+    line-height: 1.4;
+}
+
+/* 6. 본문 스타일 - 가독성 최우선 */
+.entry-content,
+.post-content {
+    font-size: 1.1em;
+    line-height: 2;
+    color: #4a4a4a;
+    margin-top: 30px;
+}
+
+.entry-content p {
+    margin-bottom: 1.5em;
+    text-align: justify;
+}
+
+/* 7. 제목들 (H2, H3) - 섹션 구분 */
+.entry-content h2,
+.post-content h2 {
+    color: #8b7ba8 !important;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    border-left: 5px solid #d4b5e8;
+    background: linear-gradient(90deg, rgba(232, 223, 245, 0.3) 0%, transparent 100%);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.entry-content h3,
+.post-content h3 {
+    color: #9b8bb8 !important;
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border-left: 3px solid #e8dff5;
+}
+
+/* 8. Featured Image (대표 이미지) - 부드러운 테두리 */
+.post-thumbnail img,
+.entry-content img,
+.wp-post-image {
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(123, 104, 166, 0.15);
+    margin: 20px 0;
+    max-width: 100%;
+    height: auto;
+}
+
+/* 9. 카테고리 & 태그 - 파스텔 뱃지 */
+.cat-links a,
+.tags-links a,
+.category a,
+.tag a {
+    background: linear-gradient(135deg, #f3e5f5 0%, #fce4ec 100%);
+    color: #7b68a6;
+    padding: 5px 12px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.9em;
+    margin-right: 8px;
+    display: inline-block;
+    margin-bottom: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(123, 104, 166, 0.1);
+}
+
+.cat-links a:hover,
+.tags-links a:hover {
+    background: #e8dff5;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(123, 104, 166, 0.2);
+}
+
+/* 10. 링크 스타일 - 부드러운 강조 */
+.entry-content a,
+.post-content a {
+    color: #8b7ba8;
+    text-decoration: underline;
+    text-decoration-color: rgba(139, 123, 168, 0.3);
+    transition: all 0.3s ease;
+}
+
+.entry-content a:hover {
+    color: #7b68a6;
+    text-decoration-color: #7b68a6;
+}
+
+/* 11. 사이드바 - 부드러운 위젯 */
+.widget,
+.sidebar .widget {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(200, 180, 220, 0.1);
+}
+
+.widget-title,
+.widgettitle {
+    color: #7b68a6;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e8dff5;
+}
+
+/* 12. 버튼 - 힐링 컬러 */
+.button,
+.btn,
+input[type="submit"],
+button[type="submit"] {
+    background: linear-gradient(135deg, #d4b5e8 0%, #f8bbd0 100%);
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(212, 181, 232, 0.3);
+}
+
+.button:hover,
+.btn:hover,
+input[type="submit"]:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(212, 181, 232, 0.4);
+}
+
+/* 13. 푸터 - 차분한 마무리 */
+.site-footer,
+footer {
+    background: linear-gradient(135deg, #e8dff5 0%, #fce4ec 100%);
+    padding: 40px 20px;
+    text-align: center;
+    color: #7b68a6;
+    border-top: 2px solid rgba(200, 180, 220, 0.2);
+    margin-top: 60px;
+}
+
+/* 14. 반응형 - 모바일 최적화 */
+@media (max-width: 768px) {
+    .entry-title,
+    h1.entry-title {
+        font-size: 1.5em;
+    }
+
+    .entry-content,
+    .post-content {
+        font-size: 1em;
+        line-height: 1.8;
+    }
+
+    #main-content,
+    .site-content {
+        padding: 20px 15px;
+    }
+}
+
+/* 15. 스크롤바 커스텀 - 라벤더 톤 */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f7f3ff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #d4b5e8;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #c5a3db;
+}
+
+/* 16. 로딩 애니메이션 (부드러운 페이드인) */
+.entry-content,
+.post-content {
+    animation: fadeIn 0.8s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 17. 인용구 스타일 */
+blockquote {
+    background: rgba(232, 223, 245, 0.3);
+    border-left: 5px solid #d4b5e8;
+    padding: 20px 25px;
+    margin: 30px 0;
+    border-radius: 8px;
+    font-style: italic;
+    color: #6a5a7a;
+}
+
+/* 18. 테이블 스타일 (만약 있다면) */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+table th {
+    background: #e8dff5;
+    color: #7b68a6;
+    padding: 12px;
+    border: 1px solid #d4b5e8;
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #e8dff5;
+}
+
+/* 19. 댓글 영역 */
+.comments-area {
+    margin-top: 60px;
+    padding-top: 40px;
+    border-top: 2px solid #e8dff5;
+}
+
+.comment-list {
+    list-style: none;
+    padding: 0;
+}
+
+.comment {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(200, 180, 220, 0.1);
+}
+
+/* 20. 페이지네이션 */
+.pagination,
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 40px 0;
+}
+
+.pagination a,
+.nav-links a {
+    background: #e8dff5;
+    color: #7b68a6;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.pagination a:hover,
+.nav-links a:hover {
+    background: #d4b5e8;
+    transform: translateY(-2px);
+}

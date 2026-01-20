@@ -1,0 +1,122 @@
+name: Automated Content Publishing
+
+on:
+  # Daily automatic publishing at 9 AM KST (00:00 UTC)
+  schedule:
+    - cron: '0 0 * * *'
+
+  # Manual trigger with options
+  workflow_dispatch:
+    inputs:
+      status:
+        description: 'Post status'
+        required: true
+        default: 'draft'
+        type: choice
+        options:
+          - draft
+          - publish
+          - future
+      schedule_hours:
+        description: 'Hours from now to schedule (for future status)'
+        required: false
+        default: '0'
+        type: string
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Restore database from cache
+        id: cache-db
+        uses: actions/cache@v4
+        with:
+          path: data/published_topics.db
+          key: published-topics-db-${{ github.run_number }}
+          restore-keys: |
+            published-topics-db-
+
+      - name: Restore logs from cache
+        uses: actions/cache@v4
+        with:
+          path: logs/
+          key: logs-${{ github.run_number }}
+          restore-keys: |
+            logs-
+
+      - name: Run content publishing
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          WORDPRESS_SITE_URL: ${{ secrets.WORDPRESS_SITE_URL }}
+          WORDPRESS_USERNAME: ${{ secrets.WORDPRESS_USERNAME }}
+          WORDPRESS_APP_PASSWORD: ${{ secrets.WORDPRESS_APP_PASSWORD }}
+        run: |
+          # Determine status
+          STATUS="${{ github.event.inputs.status || 'publish' }}"
+          SCHEDULE_HOURS="${{ github.event.inputs.schedule_hours || '0' }}"
+
+          echo "Publishing with status: $STATUS"
+
+          # Build command
+          CMD="python main.py --status $STATUS"
+
+          # Add schedule hours if provided and status is future
+          if [ "$STATUS" = "future" ] && [ "$SCHEDULE_HOURS" != "0" ]; then
+            CMD="$CMD --schedule-hours $SCHEDULE_HOURS"
+          fi
+
+          # Execute
+          $CMD
+
+      - name: Show statistics
+        if: always()
+        run: |
+          python main.py --stats
+
+      - name: Save database to cache
+        if: always()
+        uses: actions/cache@v4
+        with:
+          path: data/published_topics.db
+          key: published-topics-db-${{ github.run_number }}
+
+      - name: Upload logs as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: publishing-logs-${{ github.run_number }}
+          path: logs/
+          retention-days: 30
+
+      - name: Commit database changes
+        if: always()
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
+          # Add database and logs
+          git add data/published_topics.db || true
+          git add logs/*.log || true
+
+          # Commit if there are changes
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto-update: Published content on $(date +'%Y-%m-%d %H:%M:%S UTC')"
+            git push
+          else
+            echo "No database changes to commit"
+          fi
