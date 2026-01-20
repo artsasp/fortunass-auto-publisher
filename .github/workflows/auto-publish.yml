@@ -2,9 +2,9 @@ name: Auto Publish Content
 
 on:
   schedule:
-    # Run twice daily: 9 AM KST (00:00 UTC) and 9 PM KST (12:00 UTC)
-    - cron: '0 0 * * *'   # 9 AM KST
-    - cron: '0 12 * * *'  # 9 PM KST
+    # Run twice daily: 10 AM KST (01:00 UTC) and 6 PM KST (09:00 UTC)
+    - cron: '0 1 * * *'   # 10 AM KST
+    - cron: '0 9 * * *'   # 6 PM KST
 
   # Manual trigger
   workflow_dispatch:
@@ -48,7 +48,7 @@ jobs:
           python main.py
 
       - name: Run weekly fortune publishing (Mondays only)
-        if: github.event.schedule == '0 0 * * *'
+        if: github.event.schedule == '0 1 * * *'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           WORDPRESS_URL: ${{ secrets.WORDPRESS_URL }}
