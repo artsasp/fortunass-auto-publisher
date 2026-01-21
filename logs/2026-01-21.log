@@ -26,3 +26,31 @@ Image uploaded to WordPress
 {"timestamp": "2026-01-21T02:54:46.314832", "level": "INFO", "message": "Image uploaded to WordPress", "media_id": 79}
 Featured image set
 {"timestamp": "2026-01-21T02:54:47.177362", "level": "INFO", "message": "Featured image set", "post_id": 77, "media_id": 79}
+Starting topic generation
+{"timestamp": "2026-01-21T09:24:14.070594", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-01-21T09:24:14.070973", "level": "INFO", "message": "Generated unique topic", "mbti": "ESTJ", "love_situation": "장거리 연애 (long-distance relationship)", "card_type": "numerology", "card_name": "33", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-01-21T09:24:14.104494", "level": "INFO", "message": "Calling Claude API"}
+Claude API call successful
+{"timestamp": "2026-01-21T09:25:53.481195", "level": "INFO", "message": "Claude API call successful", "tokens": 8809}
+Generating image with DALL-E 3
+{"timestamp": "2026-01-21T09:25:53.501670", "level": "INFO", "message": "Generating image with DALL-E 3"}
+Image generated successfully
+{"timestamp": "2026-01-21T09:26:12.863649", "level": "INFO", "message": "Image generated successfully", "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-1vZrUs4jIK4Y5FLqwF3ngkeA/user-hhijlgFTeApv9R7wNITKWtlb/img-ot11zw8tZ92okYL0Jtk1czkx.png?st=2026-01-21T08%3A26%3A12Z&se=2026-01-21T10%3A26%3A12Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=b1a0ae1f-618f-4548-84fd-8b16cacd5485&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-20T22%3A44%3A50Z&ske=2026-01-21T22%3A44%3A50Z&sks=b&skv=2024-08-04&sig=D8/BZtr/OrVFZ5qZBzzx%2BxNmhaWx0eXQlKBrycL87lw%3D"}
+Validation issues
+{"timestamp": "2026-01-21T09:26:12.865017", "level": "WARNING", "message": "Validation issues", "issues": ["Forbidden words: 무조건", "Missing disclaimer"]}
+Content sanitized
+{"timestamp": "2026-01-21T09:26:12.865666", "level": "INFO", "message": "Content sanitized"}
+Validation issues
+{"timestamp": "2026-01-21T09:26:12.865908", "level": "WARNING", "message": "Validation issues", "issues": ["Missing disclaimer"]}
+Post published to WordPress
+{"timestamp": "2026-01-21T09:26:19.481706", "level": "INFO", "message": "Post published to WordPress", "post_id": 80, "status": "publish"}
+Excerpt updated
+{"timestamp": "2026-01-21T09:26:21.250108", "level": "INFO", "message": "Excerpt updated", "post_id": 80}
+SEO meta fields updated
+{"timestamp": "2026-01-21T09:26:22.676094", "level": "INFO", "message": "SEO meta fields updated", "post_id": 80}
+Image uploaded to WordPress
+{"timestamp": "2026-01-21T09:26:25.906837", "level": "INFO", "message": "Image uploaded to WordPress", "media_id": 82}
+Featured image set
+{"timestamp": "2026-01-21T09:26:27.576341", "level": "INFO", "message": "Featured image set", "post_id": 80, "media_id": 82}
