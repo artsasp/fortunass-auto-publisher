@@ -26,3 +26,31 @@ Image uploaded to WordPress
 {"timestamp": "2026-01-22T03:00:18.882711", "level": "INFO", "message": "Image uploaded to WordPress", "media_id": 85}
 Featured image set
 {"timestamp": "2026-01-22T03:00:19.753059", "level": "INFO", "message": "Featured image set", "post_id": 83, "media_id": 85}
+Starting topic generation
+{"timestamp": "2026-01-22T09:24:58.328318", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-01-22T09:24:58.328763", "level": "INFO", "message": "Generated unique topic", "mbti": "ISTP", "love_situation": "이별 후 감정 (post-breakup emotions)", "card_type": "tarot", "card_name": "The Chariot", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-01-22T09:24:58.364098", "level": "INFO", "message": "Calling Claude API"}
+Claude API call successful
+{"timestamp": "2026-01-22T09:26:34.380282", "level": "INFO", "message": "Claude API call successful", "tokens": 8150}
+Generating image with DALL-E 3
+{"timestamp": "2026-01-22T09:26:34.400929", "level": "INFO", "message": "Generating image with DALL-E 3"}
+Image generated successfully
+{"timestamp": "2026-01-22T09:26:48.932452", "level": "INFO", "message": "Image generated successfully", "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-1vZrUs4jIK4Y5FLqwF3ngkeA/user-hhijlgFTeApv9R7wNITKWtlb/img-gcCpH3SiMi4E6XnIlLN8qQwy.png?st=2026-01-22T08%3A26%3A48Z&se=2026-01-22T10%3A26%3A48Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-22T09%3A26%3A48Z&ske=2026-01-23T09%3A26%3A48Z&sks=b&skv=2024-08-04&sig=IH8Iii74B7rA81uEqS9r39XrSTB6/ssJ6f9ygAzOBBE%3D"}
+Validation issues
+{"timestamp": "2026-01-22T09:26:48.933955", "level": "WARNING", "message": "Validation issues", "issues": ["Forbidden words: 보장"]}
+Content sanitized
+{"timestamp": "2026-01-22T09:26:48.934681", "level": "INFO", "message": "Content sanitized"}
+Validation passed
+{"timestamp": "2026-01-22T09:26:48.934954", "level": "INFO", "message": "Validation passed"}
+Post published to WordPress
+{"timestamp": "2026-01-22T09:26:54.401531", "level": "INFO", "message": "Post published to WordPress", "post_id": 86, "status": "publish"}
+Excerpt updated
+{"timestamp": "2026-01-22T09:26:56.151934", "level": "INFO", "message": "Excerpt updated", "post_id": 86}
+SEO meta fields updated
+{"timestamp": "2026-01-22T09:26:57.704932", "level": "INFO", "message": "SEO meta fields updated", "post_id": 86}
+Image uploaded to WordPress
+{"timestamp": "2026-01-22T09:27:00.482273", "level": "INFO", "message": "Image uploaded to WordPress", "media_id": 88}
+Featured image set
+{"timestamp": "2026-01-22T09:27:02.191302", "level": "INFO", "message": "Featured image set", "post_id": 86, "media_id": 88}
