@@ -1,0 +1,24 @@
+Starting topic generation
+{"timestamp": "2026-02-01T03:42:31.700752", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-02-01T03:42:31.701192", "level": "INFO", "message": "Generated unique topic", "mbti": "INFP", "love_situation": "권태기 (relationship boredom)", "card_type": "oracle", "card_name": "Trust Your Path", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-02-01T03:42:31.737078", "level": "INFO", "message": "Calling Claude API"}
+Claude API call successful
+{"timestamp": "2026-02-01T03:44:20.398559", "level": "INFO", "message": "Claude API call successful", "tokens": 8619}
+Generating image with DALL-E 3
+{"timestamp": "2026-02-01T03:44:20.419584", "level": "INFO", "message": "Generating image with DALL-E 3"}
+Image generated successfully
+{"timestamp": "2026-02-01T03:44:40.535168", "level": "INFO", "message": "Image generated successfully", "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-1vZrUs4jIK4Y5FLqwF3ngkeA/user-hhijlgFTeApv9R7wNITKWtlb/img-yHB0yODXFAmXnLmu0nRdjgiY.png?st=2026-02-01T02%3A44%3A39Z&se=2026-02-01T04%3A44%3A39Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-02-01T03%3A44%3A39Z&ske=2026-02-02T03%3A44%3A39Z&sks=b&skv=2024-08-04&sig=piTTgFBs3eO0Ma2JlwDB12V/n6q6YgdTOMaMpg%2BU75E%3D"}
+Validation passed
+{"timestamp": "2026-02-01T03:44:40.536608", "level": "INFO", "message": "Validation passed"}
+Post published to WordPress
+{"timestamp": "2026-02-01T03:44:47.022586", "level": "INFO", "message": "Post published to WordPress", "post_id": 175, "status": "future"}
+Excerpt updated
+{"timestamp": "2026-02-01T03:44:48.760777", "level": "INFO", "message": "Excerpt updated", "post_id": 175}
+SEO meta fields updated
+{"timestamp": "2026-02-01T03:44:49.987502", "level": "INFO", "message": "SEO meta fields updated", "post_id": 175}
+Image uploaded to WordPress
+{"timestamp": "2026-02-01T03:44:53.828409", "level": "INFO", "message": "Image uploaded to WordPress", "media_id": 177}
+Featured image set
+{"timestamp": "2026-02-01T03:44:54.826404", "level": "INFO", "message": "Featured image set", "post_id": 175, "media_id": 177}
