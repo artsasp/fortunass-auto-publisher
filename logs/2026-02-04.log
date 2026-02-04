@@ -1,0 +1,26 @@
+Starting topic generation
+{"timestamp": "2026-02-04T03:25:04.635721", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-02-04T03:25:04.636193", "level": "INFO", "message": "Generated unique topic", "mbti": "ISTJ", "love_situation": "새로운 시작 고민 (concerns about new beginning)", "card_type": "oracle", "card_name": "Manifesting Love", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-02-04T03:25:04.672410", "level": "INFO", "message": "Calling Claude API"}
+Claude API call successful
+{"timestamp": "2026-02-04T03:26:50.268846", "level": "INFO", "message": "Claude API call successful", "tokens": 8745}
+Generating image with DALL-E 3
+{"timestamp": "2026-02-04T03:26:50.289507", "level": "INFO", "message": "Generating image with DALL-E 3"}
+Image generated successfully
+{"timestamp": "2026-02-04T03:27:04.810274", "level": "INFO", "message": "Image generated successfully", "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-1vZrUs4jIK4Y5FLqwF3ngkeA/user-hhijlgFTeApv9R7wNITKWtlb/img-WGNDwzaMxvUyOny6zVHdUmJR.png?st=2026-02-04T02%3A27%3A04Z&se=2026-02-04T04%3A27%3A04Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=f1dafa11-a0c2-4092-91d4-10981fbda051&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-02-03T19%3A34%3A14Z&ske=2026-02-04T19%3A34%3A14Z&sks=b&skv=2024-08-04&sig=weK%2BfgsfJfSx5wdhVCliwQf/aMOh%2BBpqx5efLWeCqpo%3D"}
+Validation issues
+{"timestamp": "2026-02-04T03:27:04.811692", "level": "WARNING", "message": "Validation issues", "issues": ["Forbidden words: 100%, 반드시, 100%", "Missing disclaimer"]}
+Content sanitized
+{"timestamp": "2026-02-04T03:27:04.812431", "level": "INFO", "message": "Content sanitized"}
+Validation issues
+{"timestamp": "2026-02-04T03:27:04.812744", "level": "WARNING", "message": "Validation issues", "issues": ["Missing disclaimer"]}
+WordPress publish failed: 503 Server Error: Service Unavailable for url: http://fortunass.mycafe24.com/wp-json/wp/v2/posts
+{"timestamp": "2026-02-04T03:27:10.021650", "level": "ERROR", "message": "WordPress publish failed: 503 Server Error: Service Unavailable for url: http://fortunass.mycafe24.com/wp-json/wp/v2/posts"}
+Retrying as draft
+{"timestamp": "2026-02-04T03:27:10.021939", "level": "INFO", "message": "Retrying as draft"}
+Image uploaded to WordPress
+{"timestamp": "2026-02-04T03:27:16.440996", "level": "INFO", "message": "Image uploaded to WordPress", "media_id": 226}
+Featured image set
+{"timestamp": "2026-02-04T03:27:17.732225", "level": "INFO", "message": "Featured image set", "post_id": 225, "media_id": 226}
