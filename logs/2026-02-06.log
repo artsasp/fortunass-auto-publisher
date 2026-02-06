@@ -1,0 +1,28 @@
+Starting topic generation
+{"timestamp": "2026-02-06T03:24:23.676965", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-02-06T03:24:23.677429", "level": "INFO", "message": "Generated unique topic", "mbti": "ENFP", "love_situation": "사랑과 자존감 (love and self-esteem)", "card_type": "numerology", "card_name": "5", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-02-06T03:24:23.713289", "level": "INFO", "message": "Calling Claude API"}
+Claude API call successful
+{"timestamp": "2026-02-06T03:26:04.151322", "level": "INFO", "message": "Claude API call successful", "tokens": 8804}
+Generating image with DALL-E 3
+{"timestamp": "2026-02-06T03:26:04.172550", "level": "INFO", "message": "Generating image with DALL-E 3"}
+Image generated successfully
+{"timestamp": "2026-02-06T03:26:20.994300", "level": "INFO", "message": "Image generated successfully", "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-1vZrUs4jIK4Y5FLqwF3ngkeA/user-hhijlgFTeApv9R7wNITKWtlb/img-yyeLB4bax98NB5XKEuiA8uLK.png?st=2026-02-06T02%3A26%3A20Z&se=2026-02-06T04%3A26%3A20Z&sp=r&sv=2026-02-06&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-02-05T23%3A02%3A00Z&ske=2026-02-06T23%3A02%3A00Z&sks=b&skv=2026-02-06&sig=ekc4zBaS6/Wnw3dTshQKLWZEhWe3f77YCxp5NUPBEtQ%3D"}
+Validation issues
+{"timestamp": "2026-02-06T03:26:20.995735", "level": "WARNING", "message": "Validation issues", "issues": ["Forbidden words: 반드시", "Missing disclaimer"]}
+Content sanitized
+{"timestamp": "2026-02-06T03:26:20.996413", "level": "INFO", "message": "Content sanitized"}
+Validation issues
+{"timestamp": "2026-02-06T03:26:20.996686", "level": "WARNING", "message": "Validation issues", "issues": ["Missing disclaimer"]}
+Post published to WordPress
+{"timestamp": "2026-02-06T03:26:26.284277", "level": "INFO", "message": "Post published to WordPress", "post_id": 237, "status": "future"}
+Excerpt updated
+{"timestamp": "2026-02-06T03:26:27.379801", "level": "INFO", "message": "Excerpt updated", "post_id": 237}
+SEO meta fields updated
+{"timestamp": "2026-02-06T03:26:28.459715", "level": "INFO", "message": "SEO meta fields updated", "post_id": 237}
+Image uploaded to WordPress
+{"timestamp": "2026-02-06T03:26:31.302671", "level": "INFO", "message": "Image uploaded to WordPress", "media_id": 239}
+Featured image set
+{"timestamp": "2026-02-06T03:26:32.206036", "level": "INFO", "message": "Featured image set", "post_id": 237, "media_id": 239}
