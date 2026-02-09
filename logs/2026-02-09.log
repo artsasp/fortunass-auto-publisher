@@ -1,0 +1,184 @@
+Starting topic generation
+{"timestamp": "2026-02-09T03:36:25.725232", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-02-09T03:36:25.725714", "level": "INFO", "message": "Generated unique topic", "mbti": "ENFP", "love_situation": "소통 단절 (communication breakdown)", "card_type": "oracle", "card_name": "Self Love", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-02-09T03:36:25.761743", "level": "INFO", "message": "Calling Claude API"}
+Claude API call successful
+{"timestamp": "2026-02-09T03:38:11.064451", "level": "INFO", "message": "Claude API call successful", "tokens": 8670}
+Generating image with DALL-E 3
+{"timestamp": "2026-02-09T03:38:11.085535", "level": "INFO", "message": "Generating image with DALL-E 3"}
+Image generated successfully
+{"timestamp": "2026-02-09T03:38:27.653893", "level": "INFO", "message": "Image generated successfully", "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-1vZrUs4jIK4Y5FLqwF3ngkeA/user-hhijlgFTeApv9R7wNITKWtlb/img-Zx3U8GzmwgqWQnkWmyrdsfgy.png?st=2026-02-09T02%3A38%3A27Z&se=2026-02-09T04%3A38%3A27Z&sp=r&sv=2026-02-06&sr=b&rscd=inline&rsct=image/png&skoid=9346e9b9-5d29-4d37-a0a9-c6f95f09f79d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-02-09T00%3A56%3A38Z&ske=2026-02-10T00%3A56%3A38Z&sks=b&skv=2026-02-06&sig=64BL75mSMVDJwY4aAoLcQpdNXBKsNLtXY4WotREo7jM%3D"}
+Validation passed
+{"timestamp": "2026-02-09T03:38:27.655416", "level": "INFO", "message": "Validation passed"}
+Post published to WordPress
+{"timestamp": "2026-02-09T03:38:32.518283", "level": "INFO", "message": "Post published to WordPress", "post_id": 255, "status": "future"}
+Excerpt updated
+{"timestamp": "2026-02-09T03:38:33.511677", "level": "INFO", "message": "Excerpt updated", "post_id": 255}
+SEO meta fields updated
+{"timestamp": "2026-02-09T03:38:34.518587", "level": "INFO", "message": "SEO meta fields updated", "post_id": 255}
+Image uploaded to WordPress
+{"timestamp": "2026-02-09T03:38:37.961226", "level": "INFO", "message": "Image uploaded to WordPress", "media_id": 257}
+Featured image set
+{"timestamp": "2026-02-09T03:38:38.978337", "level": "INFO", "message": "Featured image set", "post_id": 255, "media_id": 257}
+Generating weekly fortune
+{"timestamp": "2026-02-09T03:38:39.573994", "level": "INFO", "message": "Generating weekly fortune", "mbti": "INTJ", "week": "2026-02-09~2026-02-15"}
+Weekly fortune generated
+{"timestamp": "2026-02-09T03:40:02.743490", "level": "INFO", "message": "Weekly fortune generated", "mbti": "INTJ", "tokens": 7040}
+Post published to WordPress
+{"timestamp": "2026-02-09T03:40:06.644528", "level": "INFO", "message": "Post published to WordPress", "post_id": 258, "status": "publish"}
+Excerpt updated
+{"timestamp": "2026-02-09T03:40:08.024788", "level": "INFO", "message": "Excerpt updated", "post_id": 258}
+SEO meta fields updated
+{"timestamp": "2026-02-09T03:40:09.432615", "level": "INFO", "message": "SEO meta fields updated", "post_id": 258}
+Generating weekly fortune
+{"timestamp": "2026-02-09T03:40:09.434925", "level": "INFO", "message": "Generating weekly fortune", "mbti": "INTP", "week": "2026-02-09~2026-02-15"}
+Weekly fortune generated
+{"timestamp": "2026-02-09T03:41:30.603054", "level": "INFO", "message": "Weekly fortune generated", "mbti": "INTP", "tokens": 6887}
+Post published to WordPress
+{"timestamp": "2026-02-09T03:41:34.166564", "level": "INFO", "message": "Post published to WordPress", "post_id": 260, "status": "publish"}
+Excerpt updated
+{"timestamp": "2026-02-09T03:41:35.527982", "level": "INFO", "message": "Excerpt updated", "post_id": 260}
+SEO meta fields updated
+{"timestamp": "2026-02-09T03:41:36.907667", "level": "INFO", "message": "SEO meta fields updated", "post_id": 260}
+Generating weekly fortune
+{"timestamp": "2026-02-09T03:41:36.910314", "level": "INFO", "message": "Generating weekly fortune", "mbti": "ENTJ", "week": "2026-02-09~2026-02-15"}
+Weekly fortune generated
+{"timestamp": "2026-02-09T03:42:58.873077", "level": "INFO", "message": "Weekly fortune generated", "mbti": "ENTJ", "tokens": 7087}
+Post published to WordPress
+{"timestamp": "2026-02-09T03:43:02.283813", "level": "INFO", "message": "Post published to WordPress", "post_id": 262, "status": "publish"}
+Excerpt updated
+{"timestamp": "2026-02-09T03:43:03.672505", "level": "INFO", "message": "Excerpt updated", "post_id": 262}
+SEO meta fields updated
+{"timestamp": "2026-02-09T03:43:05.023232", "level": "INFO", "message": "SEO meta fields updated", "post_id": 262}
+Generating weekly fortune
+{"timestamp": "2026-02-09T03:43:05.025638", "level": "INFO", "message": "Generating weekly fortune", "mbti": "ENTP", "week": "2026-02-09~2026-02-15"}
+Weekly fortune generated
+{"timestamp": "2026-02-09T03:44:28.176433", "level": "INFO", "message": "Weekly fortune generated", "mbti": "ENTP", "tokens": 7248}
+Post published to WordPress
+{"timestamp": "2026-02-09T03:44:31.554048", "level": "INFO", "message": "Post published to WordPress", "post_id": 264, "status": "publish"}
+Excerpt updated
+{"timestamp": "2026-02-09T03:44:32.940832", "level": "INFO", "message": "Excerpt updated", "post_id": 264}
+SEO meta fields updated
+{"timestamp": "2026-02-09T03:44:34.291255", "level": "INFO", "message": "SEO meta fields updated", "post_id": 264}
+Generating weekly fortune
+{"timestamp": "2026-02-09T03:44:34.293613", "level": "INFO", "message": "Generating weekly fortune", "mbti": "INFJ", "week": "2026-02-09~2026-02-15"}
+Weekly fortune generated
+{"timestamp": "2026-02-09T03:45:48.278379", "level": "INFO", "message": "Weekly fortune generated", "mbti": "INFJ", "tokens": 6483}
+Post published to WordPress
+{"timestamp": "2026-02-09T03:45:51.743124", "level": "INFO", "message": "Post published to WordPress", "post_id": 266, "status": "publish"}
+Excerpt updated
+{"timestamp": "2026-02-09T03:45:53.252815", "level": "INFO", "message": "Excerpt updated", "post_id": 266}
+SEO meta fields updated
+{"timestamp": "2026-02-09T03:45:54.659202", "level": "INFO", "message": "SEO meta fields updated", "post_id": 266}
+Generating weekly fortune
+{"timestamp": "2026-02-09T03:45:54.661878", "level": "INFO", "message": "Generating weekly fortune", "mbti": "INFP", "week": "2026-02-09~2026-02-15"}
+Weekly fortune generated
+{"timestamp": "2026-02-09T03:47:30.896742", "level": "INFO", "message": "Weekly fortune generated", "mbti": "INFP", "tokens": 7845}
+Post published to WordPress
+{"timestamp": "2026-02-09T03:47:34.155590", "level": "INFO", "message": "Post published to WordPress", "post_id": 268, "status": "publish"}
+Excerpt updated
+{"timestamp": "2026-02-09T03:47:35.727267", "level": "INFO", "message": "Excerpt updated", "post_id": 268}
+SEO meta fields updated
+{"timestamp": "2026-02-09T03:47:37.132975", "level": "INFO", "message": "SEO meta fields updated", "post_id": 268}
+Generating weekly fortune
+{"timestamp": "2026-02-09T03:47:37.135457", "level": "INFO", "message": "Generating weekly fortune", "mbti": "ENFJ", "week": "2026-02-09~2026-02-15"}
+Weekly fortune generated
+{"timestamp": "2026-02-09T03:48:55.815068", "level": "INFO", "message": "Weekly fortune generated", "mbti": "ENFJ", "tokens": 6606}
+Post published to WordPress
+{"timestamp": "2026-02-09T03:48:59.593659", "level": "INFO", "message": "Post published to WordPress", "post_id": 270, "status": "publish"}
+Excerpt updated
+{"timestamp": "2026-02-09T03:49:00.997819", "level": "INFO", "message": "Excerpt updated", "post_id": 270}
+SEO meta fields updated
+{"timestamp": "2026-02-09T03:49:02.381582", "level": "INFO", "message": "SEO meta fields updated", "post_id": 270}
+Generating weekly fortune
+{"timestamp": "2026-02-09T03:49:02.383696", "level": "INFO", "message": "Generating weekly fortune", "mbti": "ENFP", "week": "2026-02-09~2026-02-15"}
+Weekly fortune generated
+{"timestamp": "2026-02-09T03:50:21.943585", "level": "INFO", "message": "Weekly fortune generated", "mbti": "ENFP", "tokens": 6868}
+Post published to WordPress
+{"timestamp": "2026-02-09T03:50:25.398809", "level": "INFO", "message": "Post published to WordPress", "post_id": 272, "status": "publish"}
+Excerpt updated
+{"timestamp": "2026-02-09T03:50:26.798984", "level": "INFO", "message": "Excerpt updated", "post_id": 272}
+SEO meta fields updated
+{"timestamp": "2026-02-09T03:50:28.190729", "level": "INFO", "message": "SEO meta fields updated", "post_id": 272}
+Generating weekly fortune
+{"timestamp": "2026-02-09T03:50:28.193267", "level": "INFO", "message": "Generating weekly fortune", "mbti": "ISTJ", "week": "2026-02-09~2026-02-15"}
+Weekly fortune generated
+{"timestamp": "2026-02-09T03:51:52.040314", "level": "INFO", "message": "Weekly fortune generated", "mbti": "ISTJ", "tokens": 7231}
+Post published to WordPress
+{"timestamp": "2026-02-09T03:51:55.707336", "level": "INFO", "message": "Post published to WordPress", "post_id": 274, "status": "publish"}
+Excerpt updated
+{"timestamp": "2026-02-09T03:51:57.105685", "level": "INFO", "message": "Excerpt updated", "post_id": 274}
+SEO meta fields updated
+{"timestamp": "2026-02-09T03:51:58.577079", "level": "INFO", "message": "SEO meta fields updated", "post_id": 274}
+Generating weekly fortune
+{"timestamp": "2026-02-09T03:51:58.581213", "level": "INFO", "message": "Generating weekly fortune", "mbti": "ISFJ", "week": "2026-02-09~2026-02-15"}
+Weekly fortune generated
+{"timestamp": "2026-02-09T03:53:20.476041", "level": "INFO", "message": "Weekly fortune generated", "mbti": "ISFJ", "tokens": 7044}
+Post published to WordPress
+{"timestamp": "2026-02-09T03:53:23.744056", "level": "INFO", "message": "Post published to WordPress", "post_id": 276, "status": "publish"}
+Excerpt updated
+{"timestamp": "2026-02-09T03:53:25.135520", "level": "INFO", "message": "Excerpt updated", "post_id": 276}
+SEO meta fields updated
+{"timestamp": "2026-02-09T03:53:26.512499", "level": "INFO", "message": "SEO meta fields updated", "post_id": 276}
+Generating weekly fortune
+{"timestamp": "2026-02-09T03:53:26.514690", "level": "INFO", "message": "Generating weekly fortune", "mbti": "ESTJ", "week": "2026-02-09~2026-02-15"}
+Weekly fortune generated
+{"timestamp": "2026-02-09T03:55:02.764654", "level": "INFO", "message": "Weekly fortune generated", "mbti": "ESTJ", "tokens": 7749}
+Post published to WordPress
+{"timestamp": "2026-02-09T03:55:06.735645", "level": "INFO", "message": "Post published to WordPress", "post_id": 278, "status": "publish"}
+Excerpt updated
+{"timestamp": "2026-02-09T03:55:08.095783", "level": "INFO", "message": "Excerpt updated", "post_id": 278}
+SEO meta fields updated
+{"timestamp": "2026-02-09T03:55:09.455423", "level": "INFO", "message": "SEO meta fields updated", "post_id": 278}
+Generating weekly fortune
+{"timestamp": "2026-02-09T03:55:09.457592", "level": "INFO", "message": "Generating weekly fortune", "mbti": "ESFJ", "week": "2026-02-09~2026-02-15"}
+Weekly fortune generated
+{"timestamp": "2026-02-09T03:56:33.186713", "level": "INFO", "message": "Weekly fortune generated", "mbti": "ESFJ", "tokens": 7232}
+Post published to WordPress
+{"timestamp": "2026-02-09T03:56:37.495573", "level": "INFO", "message": "Post published to WordPress", "post_id": 280, "status": "publish"}
+Excerpt updated
+{"timestamp": "2026-02-09T03:56:38.854623", "level": "INFO", "message": "Excerpt updated", "post_id": 280}
+SEO meta fields updated
+{"timestamp": "2026-02-09T03:56:40.195843", "level": "INFO", "message": "SEO meta fields updated", "post_id": 280}
+Generating weekly fortune
+{"timestamp": "2026-02-09T03:56:40.198386", "level": "INFO", "message": "Generating weekly fortune", "mbti": "ISTP", "week": "2026-02-09~2026-02-15"}
+Weekly fortune generated
+{"timestamp": "2026-02-09T03:57:58.803818", "level": "INFO", "message": "Weekly fortune generated", "mbti": "ISTP", "tokens": 6948}
+Post published to WordPress
+{"timestamp": "2026-02-09T03:58:02.175434", "level": "INFO", "message": "Post published to WordPress", "post_id": 282, "status": "publish"}
+Excerpt updated
+{"timestamp": "2026-02-09T03:58:03.715138", "level": "INFO", "message": "Excerpt updated", "post_id": 282}
+SEO meta fields updated
+{"timestamp": "2026-02-09T03:58:05.076290", "level": "INFO", "message": "SEO meta fields updated", "post_id": 282}
+Generating weekly fortune
+{"timestamp": "2026-02-09T03:58:05.078434", "level": "INFO", "message": "Generating weekly fortune", "mbti": "ISFP", "week": "2026-02-09~2026-02-15"}
+Weekly fortune generated
+{"timestamp": "2026-02-09T03:59:26.807360", "level": "INFO", "message": "Weekly fortune generated", "mbti": "ISFP", "tokens": 7021}
+Post published to WordPress
+{"timestamp": "2026-02-09T03:59:31.276646", "level": "INFO", "message": "Post published to WordPress", "post_id": 284, "status": "publish"}
+Excerpt updated
+{"timestamp": "2026-02-09T03:59:32.657227", "level": "INFO", "message": "Excerpt updated", "post_id": 284}
+SEO meta fields updated
+{"timestamp": "2026-02-09T03:59:34.189083", "level": "INFO", "message": "SEO meta fields updated", "post_id": 284}
+Generating weekly fortune
+{"timestamp": "2026-02-09T03:59:34.191372", "level": "INFO", "message": "Generating weekly fortune", "mbti": "ESTP", "week": "2026-02-09~2026-02-15"}
+Weekly fortune generated
+{"timestamp": "2026-02-09T04:01:00.390284", "level": "INFO", "message": "Weekly fortune generated", "mbti": "ESTP", "tokens": 7148}
+Post published to WordPress
+{"timestamp": "2026-02-09T04:01:04.071074", "level": "INFO", "message": "Post published to WordPress", "post_id": 286, "status": "publish"}
+Excerpt updated
+{"timestamp": "2026-02-09T04:01:05.460653", "level": "INFO", "message": "Excerpt updated", "post_id": 286}
+SEO meta fields updated
+{"timestamp": "2026-02-09T04:01:07.118118", "level": "INFO", "message": "SEO meta fields updated", "post_id": 286}
+Generating weekly fortune
+{"timestamp": "2026-02-09T04:01:07.120376", "level": "INFO", "message": "Generating weekly fortune", "mbti": "ESFP", "week": "2026-02-09~2026-02-15"}
+Weekly fortune generated
+{"timestamp": "2026-02-09T04:02:29.788233", "level": "INFO", "message": "Weekly fortune generated", "mbti": "ESFP", "tokens": 7299}
+Post published to WordPress
+{"timestamp": "2026-02-09T04:02:33.296974", "level": "INFO", "message": "Post published to WordPress", "post_id": 288, "status": "publish"}
+Excerpt updated
+{"timestamp": "2026-02-09T04:02:34.827896", "level": "INFO", "message": "Excerpt updated", "post_id": 288}
+SEO meta fields updated
+{"timestamp": "2026-02-09T04:02:36.212140", "level": "INFO", "message": "SEO meta fields updated", "post_id": 288}
