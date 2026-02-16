@@ -182,3 +182,27 @@ Excerpt updated
 {"timestamp": "2026-02-16T04:00:39.549272", "level": "INFO", "message": "Excerpt updated", "post_id": 362}
 SEO meta fields updated
 {"timestamp": "2026-02-16T04:00:41.209556", "level": "INFO", "message": "SEO meta fields updated", "post_id": 362}
+Starting topic generation
+{"timestamp": "2026-02-16T09:43:04.259748", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-02-16T09:43:04.260176", "level": "INFO", "message": "Generated unique topic", "mbti": "ESFP", "love_situation": "상대방 마음 읽기 (reading partner's mind)", "card_type": "tarot", "card_name": "Strength", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-02-16T09:43:04.296755", "level": "INFO", "message": "Calling Claude API"}
+Claude API call successful
+{"timestamp": "2026-02-16T09:44:46.971160", "level": "INFO", "message": "Claude API call successful", "tokens": 8612}
+Generating image with DALL-E 3
+{"timestamp": "2026-02-16T09:44:46.992276", "level": "INFO", "message": "Generating image with DALL-E 3"}
+Image generated successfully
+{"timestamp": "2026-02-16T09:45:05.180592", "level": "INFO", "message": "Image generated successfully", "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-1vZrUs4jIK4Y5FLqwF3ngkeA/user-hhijlgFTeApv9R7wNITKWtlb/img-1NJACkjOAvYkRg7ALWOxOEuq.png?st=2026-02-16T08%3A45%3A04Z&se=2026-02-16T10%3A45%3A04Z&sp=r&sv=2026-02-06&sr=b&rscd=inline&rsct=image/png&skoid=77e5a8ec-6bd1-4477-8afc-16703a64f029&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-02-16T07%3A11%3A46Z&ske=2026-02-17T07%3A11%3A46Z&sks=b&skv=2026-02-06&sig=JVAU%2BfgERaOKk3iaSW2/cuN//Fp8oUWd3TnN15844kQ%3D"}
+Validation passed
+{"timestamp": "2026-02-16T09:45:05.182100", "level": "INFO", "message": "Validation passed"}
+Post published to WordPress
+{"timestamp": "2026-02-16T09:45:10.048019", "level": "INFO", "message": "Post published to WordPress", "post_id": 364, "status": "publish"}
+Excerpt updated
+{"timestamp": "2026-02-16T09:45:11.745586", "level": "INFO", "message": "Excerpt updated", "post_id": 364}
+SEO meta fields updated
+{"timestamp": "2026-02-16T09:45:13.133540", "level": "INFO", "message": "SEO meta fields updated", "post_id": 364}
+Image uploaded to WordPress
+{"timestamp": "2026-02-16T09:45:16.394113", "level": "INFO", "message": "Image uploaded to WordPress", "media_id": 366}
+Featured image set
+{"timestamp": "2026-02-16T09:45:17.798495", "level": "INFO", "message": "Featured image set", "post_id": 364, "media_id": 366}
