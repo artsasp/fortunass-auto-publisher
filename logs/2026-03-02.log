@@ -186,3 +186,31 @@ Excerpt updated
 {"timestamp": "2026-03-02T03:50:52.589484", "level": "INFO", "message": "Excerpt updated", "post_id": 507}
 SEO meta fields updated
 {"timestamp": "2026-03-02T03:50:54.246643", "level": "INFO", "message": "SEO meta fields updated", "post_id": 507}
+Starting topic generation
+{"timestamp": "2026-03-02T09:38:23.448026", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-03-02T09:38:23.448382", "level": "INFO", "message": "Generated unique topic", "mbti": "INFJ", "love_situation": "질투와 집착 (jealousy and obsession)", "card_type": "numerology", "card_name": "5", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-03-02T09:38:23.482006", "level": "INFO", "message": "Calling Claude API"}
+Claude API call successful
+{"timestamp": "2026-03-02T09:40:06.426554", "level": "INFO", "message": "Claude API call successful", "tokens": 8742}
+Generating image with DALL-E 3
+{"timestamp": "2026-03-02T09:40:06.447424", "level": "INFO", "message": "Generating image with DALL-E 3"}
+Image generated successfully
+{"timestamp": "2026-03-02T09:40:24.458794", "level": "INFO", "message": "Image generated successfully", "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-1vZrUs4jIK4Y5FLqwF3ngkeA/user-hhijlgFTeApv9R7wNITKWtlb/img-dMtzDDbc9O5PQM0AlU65MdqZ.png?st=2026-03-02T08%3A40%3A24Z&se=2026-03-02T10%3A40%3A24Z&sp=r&sv=2026-02-06&sr=b&rscd=inline&rsct=image/png&skoid=7daae675-7b42-4e2e-ab4c-8d8419a28d99&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-03-01T13%3A14%3A10Z&ske=2026-03-02T13%3A14%3A10Z&sks=b&skv=2026-02-06&sig=DQTUJsPRBjHSzUhSWewE4EJAfxGUM4uilPOZm7eXQE4%3D"}
+Validation issues
+{"timestamp": "2026-03-02T09:40:24.460208", "level": "WARNING", "message": "Validation issues", "issues": ["Forbidden words: 반드시, 무조건"]}
+Content sanitized
+{"timestamp": "2026-03-02T09:40:24.460934", "level": "INFO", "message": "Content sanitized"}
+Validation passed
+{"timestamp": "2026-03-02T09:40:24.461263", "level": "INFO", "message": "Validation passed"}
+Post published to WordPress
+{"timestamp": "2026-03-02T09:40:29.719605", "level": "INFO", "message": "Post published to WordPress", "post_id": 509, "status": "publish"}
+Excerpt updated
+{"timestamp": "2026-03-02T09:40:31.344556", "level": "INFO", "message": "Excerpt updated", "post_id": 509}
+SEO meta fields updated
+{"timestamp": "2026-03-02T09:40:32.746429", "level": "INFO", "message": "SEO meta fields updated", "post_id": 509}
+Image uploaded to WordPress
+{"timestamp": "2026-03-02T09:40:36.132648", "level": "INFO", "message": "Image uploaded to WordPress", "media_id": 511}
+Featured image set
+{"timestamp": "2026-03-02T09:40:37.916796", "level": "INFO", "message": "Featured image set", "post_id": 509, "media_id": 511}
