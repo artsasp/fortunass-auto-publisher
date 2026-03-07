@@ -1,0 +1,28 @@
+Starting topic generation
+{"timestamp": "2026-03-07T03:08:01.367699", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-03-07T03:08:01.368202", "level": "INFO", "message": "Generated unique topic", "mbti": "ISFJ", "love_situation": "연애 불안 (relationship anxiety)", "card_type": "tarot", "card_name": "The Hanged Man", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-03-07T03:08:01.405389", "level": "INFO", "message": "Calling Claude API"}
+Claude API call successful
+{"timestamp": "2026-03-07T03:09:41.786337", "level": "INFO", "message": "Claude API call successful", "tokens": 8677}
+Generating image with DALL-E 3
+{"timestamp": "2026-03-07T03:09:41.807762", "level": "INFO", "message": "Generating image with DALL-E 3"}
+Image generated successfully
+{"timestamp": "2026-03-07T03:09:59.692529", "level": "INFO", "message": "Image generated successfully", "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-1vZrUs4jIK4Y5FLqwF3ngkeA/user-hhijlgFTeApv9R7wNITKWtlb/img-wSdtw3sTtPFKFsBWuO9eCsyl.png?st=2026-03-07T02%3A09%3A59Z&se=2026-03-07T04%3A09%3A59Z&sp=r&sv=2026-02-06&sr=b&rscd=inline&rsct=image/png&skoid=35890473-cca8-4a54-8305-05a39e0bc9c3&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-03-06T18%3A59%3A43Z&ske=2026-03-07T18%3A59%3A43Z&sks=b&skv=2026-02-06&sig=nv1K1Mp5RR3XcNDM6%2B3fcQMdDZVwQAU2%2BtLGPhuFyPQ%3D"}
+Validation issues
+{"timestamp": "2026-03-07T03:09:59.694625", "level": "WARNING", "message": "Validation issues", "issues": ["Forbidden words: 반드시, 보장", "Missing disclaimer"]}
+Content sanitized
+{"timestamp": "2026-03-07T03:09:59.695445", "level": "INFO", "message": "Content sanitized"}
+Validation issues
+{"timestamp": "2026-03-07T03:09:59.695743", "level": "WARNING", "message": "Validation issues", "issues": ["Missing disclaimer"]}
+Post published to WordPress
+{"timestamp": "2026-03-07T03:10:07.266537", "level": "INFO", "message": "Post published to WordPress", "post_id": 536, "status": "future"}
+Excerpt updated
+{"timestamp": "2026-03-07T03:10:08.608309", "level": "INFO", "message": "Excerpt updated", "post_id": 536}
+SEO meta fields updated
+{"timestamp": "2026-03-07T03:10:09.807757", "level": "INFO", "message": "SEO meta fields updated", "post_id": 536}
+Image uploaded to WordPress
+{"timestamp": "2026-03-07T03:10:13.038252", "level": "INFO", "message": "Image uploaded to WordPress", "media_id": 538}
+Featured image set
+{"timestamp": "2026-03-07T03:10:14.222068", "level": "INFO", "message": "Featured image set", "post_id": 536, "media_id": 538}
