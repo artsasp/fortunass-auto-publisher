@@ -1,0 +1,24 @@
+Starting topic generation
+{"timestamp": "2026-04-01T03:55:55.839859", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-04-01T03:55:55.840313", "level": "INFO", "message": "Generated unique topic", "mbti": "ESFJ", "love_situation": "거리감 (emotional distance)", "card_type": "oracle", "card_name": "Healing Heart", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-04-01T03:55:55.877175", "level": "INFO", "message": "Calling Claude API"}
+Claude API call successful
+{"timestamp": "2026-04-01T03:57:33.327339", "level": "INFO", "message": "Claude API call successful", "tokens": 8608}
+Generating image with DALL-E 3
+{"timestamp": "2026-04-01T03:57:33.349230", "level": "INFO", "message": "Generating image with DALL-E 3"}
+Image generated successfully
+{"timestamp": "2026-04-01T03:57:51.435950", "level": "INFO", "message": "Image generated successfully", "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-1vZrUs4jIK4Y5FLqwF3ngkeA/user-hhijlgFTeApv9R7wNITKWtlb/img-C8KDIDctgO5HIp5fPZsmHRaq.png?st=2026-04-01T02%3A57%3A50Z&se=2026-04-01T04%3A57%3A50Z&sp=r&sv=2026-02-06&sr=b&rscd=inline&rsct=image/png&skoid=13da7400-b3f7-4f8c-9cba-908fecbd114c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-04-01T03%3A04%3A09Z&ske=2026-04-02T03%3A04%3A09Z&sks=b&skv=2026-02-06&sig=9v62pwJmUmzsfLwGQc0/tpejZEAe%2BURwsgqV/YUUVxw%3D"}
+Validation passed
+{"timestamp": "2026-04-01T03:57:51.437608", "level": "INFO", "message": "Validation passed"}
+Post published to WordPress
+{"timestamp": "2026-04-01T03:57:56.712607", "level": "INFO", "message": "Post published to WordPress", "post_id": 583, "status": "future"}
+Excerpt updated
+{"timestamp": "2026-04-01T03:57:57.999680", "level": "INFO", "message": "Excerpt updated", "post_id": 583}
+SEO meta fields updated
+{"timestamp": "2026-04-01T03:57:59.034069", "level": "INFO", "message": "SEO meta fields updated", "post_id": 583}
+Image uploaded to WordPress
+{"timestamp": "2026-04-01T03:58:02.335148", "level": "INFO", "message": "Image uploaded to WordPress", "media_id": 585}
+Featured image set
+{"timestamp": "2026-04-01T03:58:03.775268", "level": "INFO", "message": "Featured image set", "post_id": 583, "media_id": 585}
