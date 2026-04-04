@@ -1,0 +1,28 @@
+Starting topic generation
+{"timestamp": "2026-04-04T03:27:03.079394", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-04-04T03:27:03.079828", "level": "INFO", "message": "Generated unique topic", "mbti": "ISFJ", "love_situation": "상대방 마음 읽기 (reading partner's mind)", "card_type": "tarot", "card_name": "The Star", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-04-04T03:27:03.116853", "level": "INFO", "message": "Calling Claude API"}
+Claude API call successful
+{"timestamp": "2026-04-04T03:28:52.056473", "level": "INFO", "message": "Claude API call successful", "tokens": 8699}
+Generating image with DALL-E 3
+{"timestamp": "2026-04-04T03:28:52.078202", "level": "INFO", "message": "Generating image with DALL-E 3"}
+Image generated successfully
+{"timestamp": "2026-04-04T03:29:08.775637", "level": "INFO", "message": "Image generated successfully", "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-1vZrUs4jIK4Y5FLqwF3ngkeA/user-hhijlgFTeApv9R7wNITKWtlb/img-6nzeapleVXVEDUKG17SlZKAO.png?st=2026-04-04T02%3A29%3A07Z&se=2026-04-04T04%3A29%3A07Z&sp=r&sv=2026-02-06&sr=b&rscd=inline&rsct=image/png&skoid=13da7400-b3f7-4f8c-9cba-908fecbd114c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-04-03T07%3A30%3A40Z&ske=2026-04-04T07%3A30%3A40Z&sks=b&skv=2026-02-06&sig=/gmNtJH9%2BtU0DdEzl29axpuv3Ci5aXnT0KV7VQfpC4c%3D"}
+Validation issues
+{"timestamp": "2026-04-04T03:29:08.777176", "level": "WARNING", "message": "Validation issues", "issues": ["Forbidden words: 100%, 반드시, 보장", "Missing disclaimer"]}
+Content sanitized
+{"timestamp": "2026-04-04T03:29:08.777937", "level": "INFO", "message": "Content sanitized"}
+Validation issues
+{"timestamp": "2026-04-04T03:29:08.778225", "level": "WARNING", "message": "Validation issues", "issues": ["Missing disclaimer"]}
+Post published to WordPress
+{"timestamp": "2026-04-04T03:29:13.487935", "level": "INFO", "message": "Post published to WordPress", "post_id": 601, "status": "future"}
+Excerpt updated
+{"timestamp": "2026-04-04T03:29:14.382635", "level": "INFO", "message": "Excerpt updated", "post_id": 601}
+SEO meta fields updated
+{"timestamp": "2026-04-04T03:29:15.306762", "level": "INFO", "message": "SEO meta fields updated", "post_id": 601}
+Image uploaded to WordPress
+{"timestamp": "2026-04-04T03:29:18.601472", "level": "INFO", "message": "Image uploaded to WordPress", "media_id": 603}
+Featured image set
+{"timestamp": "2026-04-04T03:29:19.814292", "level": "INFO", "message": "Featured image set", "post_id": 601, "media_id": 603}
