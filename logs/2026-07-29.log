@@ -1,0 +1,18 @@
+Starting topic generation
+{"timestamp": "2026-07-29T03:56:22.106817", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-07-29T03:56:22.107316", "level": "INFO", "message": "Generated unique topic", "mbti": "ESTJ", "love_situation": "질투와 집착 (jealousy and obsession)", "card_type": "tarot", "card_name": "The Empress", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-07-29T03:56:22.140660", "level": "INFO", "message": "Calling Claude API"}
+Claude API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdVg8xWj6cfecdgx7prM9'}
+{"timestamp": "2026-07-29T03:56:22.338289", "level": "ERROR", "message": "Claude API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdVg8xWj6cfecdgx7prM9'}"}
+Calling Claude API
+{"timestamp": "2026-07-29T03:56:24.338876", "level": "INFO", "message": "Calling Claude API"}
+Claude API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdVg97cR8y1vydYDwe4up'}
+{"timestamp": "2026-07-29T03:56:24.432284", "level": "ERROR", "message": "Claude API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdVg97cR8y1vydYDwe4up'}"}
+Calling Claude API
+{"timestamp": "2026-07-29T03:56:26.432821", "level": "INFO", "message": "Calling Claude API"}
+Claude API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdVg9GZvYFDPceW6rvf8g'}
+{"timestamp": "2026-07-29T03:56:26.532616", "level": "ERROR", "message": "Claude API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdVg9GZvYFDPceW6rvf8g'}"}
+Pipeline failed: RetryError[<Future at 0x7fb4b95bba10 state=finished raised BadRequestError>]
+{"timestamp": "2026-07-29T03:56:26.532946", "level": "ERROR", "message": "Pipeline failed: RetryError[<Future at 0x7fb4b95bba10 state=finished raised BadRequestError>]"}
