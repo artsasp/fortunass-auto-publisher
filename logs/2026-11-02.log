@@ -1,0 +1,18 @@
+Starting topic generation
+{"timestamp": "2026-11-02T06:56:00.834191", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-11-02T06:56:00.834630", "level": "INFO", "message": "Generated unique topic", "mbti": "INTJ", "love_situation": "이별 후 감정 (post-breakup emotions)", "card_type": "numerology", "card_name": "8", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-11-02T06:56:00.918635", "level": "INFO", "message": "Calling Claude API"}
+Claude API error: Messages.create() got an unexpected keyword argument 'temperature'
+{"timestamp": "2026-11-02T06:56:00.918922", "level": "ERROR", "message": "Claude API error: Messages.create() got an unexpected keyword argument 'temperature'"}
+Calling Claude API
+{"timestamp": "2026-11-02T06:56:02.919335", "level": "INFO", "message": "Calling Claude API"}
+Claude API error: Messages.create() got an unexpected keyword argument 'temperature'
+{"timestamp": "2026-11-02T06:56:02.919770", "level": "ERROR", "message": "Claude API error: Messages.create() got an unexpected keyword argument 'temperature'"}
+Calling Claude API
+{"timestamp": "2026-11-02T06:56:04.920225", "level": "INFO", "message": "Calling Claude API"}
+Claude API error: Messages.create() got an unexpected keyword argument 'temperature'
+{"timestamp": "2026-11-02T06:56:04.920637", "level": "ERROR", "message": "Claude API error: Messages.create() got an unexpected keyword argument 'temperature'"}
+Pipeline failed: RetryError[<Future at 0x749bf397d3d0 state=finished raised TypeError>]
+{"timestamp": "2026-11-02T06:56:04.920980", "level": "ERROR", "message": "Pipeline failed: RetryError[<Future at 0x749bf397d3d0 state=finished raised TypeError>]"}
