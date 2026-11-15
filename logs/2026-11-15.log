@@ -16,3 +16,21 @@ Claude API error: Messages.create() got an unexpected keyword argument 'temperat
 {"timestamp": "2026-11-15T07:17:15.210015", "level": "ERROR", "message": "Claude API error: Messages.create() got an unexpected keyword argument 'temperature'"}
 Pipeline failed: RetryError[<Future at 0x7b53f5230850 state=finished raised TypeError>]
 {"timestamp": "2026-11-15T07:17:15.210305", "level": "ERROR", "message": "Pipeline failed: RetryError[<Future at 0x7b53f5230850 state=finished raised TypeError>]"}
+Starting topic generation
+{"timestamp": "2026-11-15T15:57:50.700200", "level": "INFO", "message": "Starting topic generation"}
+Generated unique topic
+{"timestamp": "2026-11-15T15:57:50.700645", "level": "INFO", "message": "Generated unique topic", "mbti": "ENFP", "love_situation": "질투와 집착 (jealousy and obsession)", "card_type": "oracle", "card_name": "Healing Heart", "attempt": 1}
+Calling Claude API
+{"timestamp": "2026-11-15T15:57:50.727369", "level": "INFO", "message": "Calling Claude API"}
+Claude API error: Messages.create() got an unexpected keyword argument 'temperature'
+{"timestamp": "2026-11-15T15:57:50.727598", "level": "ERROR", "message": "Claude API error: Messages.create() got an unexpected keyword argument 'temperature'"}
+Calling Claude API
+{"timestamp": "2026-11-15T15:57:52.728009", "level": "INFO", "message": "Calling Claude API"}
+Claude API error: Messages.create() got an unexpected keyword argument 'temperature'
+{"timestamp": "2026-11-15T15:57:52.728342", "level": "ERROR", "message": "Claude API error: Messages.create() got an unexpected keyword argument 'temperature'"}
+Calling Claude API
+{"timestamp": "2026-11-15T15:57:54.728697", "level": "INFO", "message": "Calling Claude API"}
+Claude API error: Messages.create() got an unexpected keyword argument 'temperature'
+{"timestamp": "2026-11-15T15:57:54.729040", "level": "ERROR", "message": "Claude API error: Messages.create() got an unexpected keyword argument 'temperature'"}
+Pipeline failed: RetryError[<Future at 0x75779e964690 state=finished raised TypeError>]
+{"timestamp": "2026-11-15T15:57:54.729307", "level": "ERROR", "message": "Pipeline failed: RetryError[<Future at 0x75779e964690 state=finished raised TypeError>]"}
